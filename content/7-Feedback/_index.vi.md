@@ -5,10 +5,6 @@ weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 >Tại đây bạn có thể tự do đóng góp ý kiến cá nhân về những trải nghiệm khi tham gia chương trình First Cloud AI Journey, giúp team FCAJ cải thiện những vấn đề còn thiếu sót dựa trên các hạng mục sau:
 
 ### Đánh giá chung
@@ -33,12 +29,16 @@ Công ty có hỗ trợ phụ cấp thực tập và tạo điều kiện về t
 
 
 ### Một số câu hỏi khác
-- Điều bạn **hài lòng nhất** trong thời gian thực tập?  
-- Điều bạn nghĩ công ty **cần cải thiện** cho các thực tập sinh sau?  
-- Nếu giới thiệu cho bạn bè, bạn có **khuyên họ thực tập ở đây không**? Vì sao?  
 
+* **Điều bạn hài lòng nhất trong thời gian thực tập?**
+  * Đó chính là cơ hội được thực hành trực tiếp (hands-on) với các dịch vụ cốt lõi của AWS thông qua dự án **Serverless AI Invoice Scanner**. Việc thiết kế kiến trúc, cấu hình API Gateway, Lambda, DynamoDB và tích hợp AI thực tế đã giúp tôi tự tin hơn rất nhiều về năng lực thực hành của mình.
+* **Điều bạn nghĩ chương trình cần cải thiện cho các thực tập sinh sau?**
+  * Chương trình có thể cung cấp thêm một số tài liệu định hướng về thiết kế giao diện (UI/UX) cho các ứng dụng thực tế để các bạn sinh viên tạo ra sản phẩm hoàn thiện đẹp mắt hơn nữa.
+* **Nếu giới thiệu cho bạn bè, bạn có khuyên họ tham gia chương trình này không? Vì sao?**
+  * **Chắc chắn có.** Đây là một chương trình rất thực tế, không lý thuyết suông. Mentor vô cùng tận tâm, lộ trình rõ ràng và môi trường cởi mở giúp sinh viên làm quen nhanh chóng với quy trình làm việc thực tế của doanh nghiệp.
 
 ### Đề xuất & mong muốn
-- Bạn có đề xuất gì để cải thiện trải nghiệm trong kỳ thực tập?  
-- Bạn có muốn tiếp tục chương trình này trong tương lai?
-- Góp ý khác (tự do chia sẻ):
+
+* **Đề xuất cải thiện trải nghiệm:** Tổ chức thêm một số buổi chia sẻ ngắn hàng tuần để các thực tập sinh thảo luận về các khó khăn và giải pháp mình đã tìm ra trong quá trình thực hành.
+* **Mong muốn trong tương lai:** Rất mong muốn có cơ hội tiếp tục đồng hành cùng chương trình ở các vai trò tiếp theo, hoặc tham gia vào các dự án chuyên sâu hơn về giải pháp điện toán đám mây (Cloud Solutions) của công ty.
+* **Góp ý khác (tự do chia sẻ):** Xin gửi lời cảm ơn chân thành đến ban tổ chức chương trình **First Cloud AI Journey** và các mentor đã tận tình hỗ trợ và tạo điều kiện học tập tốt nhất cho tôi trong suốt thời gian qua.

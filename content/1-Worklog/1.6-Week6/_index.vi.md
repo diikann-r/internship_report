@@ -1,58 +1,38 @@
 ---
 title: "Worklog Tuần 6"
-date: 2024-01-01
-weight: 1
+date: 2026-05-22
+weight: 60
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
-
 ### Mục tiêu tuần 6:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Học về EKS, CI/CD nâng cao, Data Lake.
+* Phân tích dữ liệu với QuickSight.
+* Nhập môn ML với SageMaker.
+* Triển khai app web với CloudFront.
+* Tìm hiểu caching policy và Edge computing.
+* Làm quen dịch vụ email AWS SES.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| 6 | - Amazon EKS: tạo cluster, node groups, deploy ứng dụng container với kubectl | 22/05/2026 | 22/05/2026 | |
+| 7 | - CI/CD nâng cao với CodePipeline/CodeDeploy trên EKS <br> - Xây dựng Data Lake cơ bản với S3, Glue, Athena | 23/05/2026 | 23/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| CN | - Phân tích dữ liệu với Amazon QuickSight: kết nối nguồn dữ liệu, tạo dashboard và visualization | 24/05/2026 | 24/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | - Nhập môn ML với SageMaker: Notebook Instance, training model, deploy endpoint inference | 25/05/2026 | 25/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | - Triển khai app web với CloudFront: tạo distribution, cấu hình origin (S3/ALB), custom domain | 26/05/2026 | 26/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - Caching policy và Edge computing: TTL, cache behaviors, Lambda@Edge, CloudFront Functions | 27/05/2026 | 27/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - AWS SES: xác thực domain/email, gửi email transactional, email templates và giám sát deliverability | 28/05/2026 | 28/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Kết quả đạt được tuần 6:
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Triển khai thành công EKS cluster hoạt động ổn định.
+* Xây dựng hệ thống CI/CD nâng cao và Data Lake cơ bản:
+  * Tích hợp CodePipeline và CodeDeploy trên EKS.
+  * Tạo Data Lake với S3, Glue, và Athena.
+* Thiết lập QuickSight dashboard giúp phân tích dữ liệu trực quan và chính xác.
+* Triển khai thành công SageMaker notebook và model inference endpoint.
+* Triển khai ứng dụng web qua CloudFront tích hợp custom domain.
+* Cấu hình tối ưu Caching policy và các giải pháp Edge computing.
+* Xác thực domain và gửi thành công email giao dịch (transactional email) qua AWS SES.

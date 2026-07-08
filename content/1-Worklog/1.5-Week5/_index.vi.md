@@ -1,59 +1,37 @@
 ---
 title: "Worklog Tuần 5"
-date: 2024-01-01
-weight: 1
+date: 2026-05-15
+weight: 50
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
-
 ### Mục tiêu tuần 5:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Làm quen EventBridge, API Gateway trong mô hình serverless.
+* Thực hành AWS Cognito và tích hợp API Gateway.
+* Xây dựng serverless pipeline với Lambda, S3, DynamoDB, API Gateway, Cognito.
+* Học SNS, SQS và xử lý đơn hàng.
+* Học CI/CD và giám sát hệ thống.
+* Làm quen AppSync và kiến trúc microservice.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| 6 | - Làm quen EventBridge và API Gateway: event-driven architecture, REST API, routing, authorization trong mô hình serverless | 15/05/2026 | 15/05/2026 | |
+| 7 | - **Thực hành:** AWS Cognito User Pool <br> - Tích hợp xác thực với API Gateway (JWT authorizer, OAuth 2.0) | 16/05/2026 | 16/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| CN | - Xây dựng serverless pipeline (phần 1): Lambda functions, S3 bucket, DynamoDB table, trigger và data flow | 17/05/2026 | 17/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | - Xây dựng serverless pipeline (phần 2): kết nối API Gateway, Cognito, kiểm tra end-to-end workflow | 18/05/2026 | 18/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | - SNS, SQS: pub/sub messaging, queue xử lý đơn hàng bất đồng bộ, dead-letter queue | 19/05/2026 | 19/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - CI/CD với CodePipeline/CodeBuild <br> - Giám sát serverless bằng CloudWatch, X-Ray | 20/05/2026 | 20/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - AWS AppSync GraphQL API <br> - Thiết kế kiến trúc microservice với Lambda, API Gateway, DynamoDB | 21/05/2026 | 21/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Kết quả đạt được tuần 5:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Nắm vững EventBridge và API Gateway trong mô hình serverless.
+* Tích hợp thành công Cognito với API Gateway giúp xác thực người dùng hoạt động ổn định.
+* Xây dựng và triển khai thành công Serverless pipeline chạy end-to-end bao gồm:
+  * Lambda, S3, DynamoDB.
+  * API Gateway và Cognito.
+* Triển khai hệ thống xử lý đơn hàng bất đồng bộ sử dụng SNS/SQS.
+* Thiết lập thành công CI/CD pipeline và hệ thống giám sát.
+* Triển khai thành công ứng dụng AppSync và kiến trúc microservice cơ bản.

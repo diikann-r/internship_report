@@ -6,10 +6,6 @@ chapter: false
 pre: " <b> 7. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
-
 > Here, you can freely share your personal opinions about your experience participating in the First Cloud AI Journey program. This will help the FCAJ team improve any shortcomings based on the following aspects:
 
 ### Overall Evaluation
@@ -35,13 +31,18 @@ The company provides an internship allowance and offers flexible working hours w
 ---
 
 ### Additional Questions
-- What did you find **most satisfying** during your internship?  
-- What do you think the company **should improve** for future interns?  
-- If recommending to a friend, would you **suggest they intern here**? Why or why not?  
+
+* **What did you find most satisfying during your internship?**
+  * The opportunity to gain hands-on experience with core AWS services through the **Serverless AI Invoice Scanner** project. Designing the architecture, configuring API Gateway, Lambda, and DynamoDB, and integrating AI gave me a solid confidence boost in my engineering capabilities.
+* **What do you think the program should improve for future interns?**
+  * The program could provide more guidance or resources on UI/UX best practices for cloud applications, helping students build more polished and professional frontends.
+* **If recommending to a friend, would you suggest they join this program? Why?**
+  * **Absolutely yes.** The program is highly practical and hands-on, rather than just theoretical. The mentors are dedicated, the roadmap is clear, and the welcoming environment helps students quickly adapt to industry workflows.
 
 ---
 
 ### Suggestions & Expectations
-- Do you have any suggestions to improve the internship experience?  
-- Would you like to continue this program in the future?  
-- Any other comments (free sharing):
+
+* **Suggestions to improve experience:** Organize weekly short seminars where interns can share their challenges and the solutions they discovered during practice.
+* **Future expectations:** I would love to continue participating in the program in future phases, or transition into more advanced cloud solution projects within the company.
+* **Other comments:** I would like to express my sincere gratitude to the organizers of the **First Cloud AI Journey** program and my mentors for providing such an outstanding learning experience.

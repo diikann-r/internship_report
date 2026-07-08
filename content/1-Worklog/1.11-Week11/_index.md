@@ -1,57 +1,42 @@
 ---
 title: "Week 11 Worklog"
-date: 2024-01-01
-weight: 2
+date: 2026-06-26
+weight: 110
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
-
 ### Week 11 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Finalize the automated invoice extraction and processing pipeline using Amazon Textract, Bedrock/OpenAI, and DynamoDB.
+* Optimize performance, reduce execution time, and perform comprehensive testing on AWS Lambda.
+* Complete the Amazon QuickSight dashboard for invoice data visualization and statistics reporting.
+* Review security configurations across IAM, S3, Lambda, and API Gateway.
+* Conduct system integration testing (from frontend to backend) and resolve runtime issues.
+* Prepare technical documentation, slides, and demo recordings for the final project presentation.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks to be implemented this week:
+| Day | Task | Start Date | End Date | Resource |
+| --- | ------------------------------------------------------------------------------------------------------------------------- | ---------- | -------- | --------------------------------------------- |
+| Fri | - Optimize invoice processing code, integrate OpenAI/Bedrock, and store structured data in DynamoDB | 2026-06-26 | 2026-06-26 | <https://cloudjourney.awsstudygroup.com/> |
+| Sat | - Conduct unit testing for Lambda functions, measure execution latency, and optimize memory allocation | 2026-06-27 | 2026-06-27 | <https://cloudjourney.awsstudygroup.com/> |
+| Sun | - Connect DynamoDB data (via Athena) to Amazon QuickSight, design and build interactive dashboard visuals | 2026-06-28 | 2026-06-28 | <https://cloudjourney.awsstudygroup.com/> |
+| Mon | - Review and verify IAM Policies for services (S3, Lambda, DynamoDB), ensuring Least Privilege access | 2026-06-29 | 2026-06-29 | <https://cloudjourney.awsstudygroup.com/> |
+| Tue | - Execute end-to-end integration testing from file upload on S3 to structured data rendering on the Dashboard | 2026-06-30 | 2026-06-30 | <https://cloudjourney.awsstudygroup.com/> |
+| Wed | - Identify and troubleshoot system errors (CORS, JSON formatting errors from OpenAI, API Gateway auth issues) | 2026-07-01 | 2026-07-01 | <https://cloudjourney.awsstudygroup.com/> |
+| Thu | - Write the technical specification documentation, build presentation slides, and record demo scenarios | 2026-07-02 | 2026-07-02 | <https://cloudjourney.awsstudygroup.com/> |
 
 
-### Week 11 Achievements:
+### Week 11 Outcomes:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **Finalized Automated Invoice Processing Pipeline:**
+  * Completed the end-to-end flow integrating Amazon Textract (OCR) with generative AI models to parse and structure invoice data directly into DynamoDB.
+  * Optimized AWS Lambda configurations (memory, execution timeouts) yielding a 30% reduction in processing latency across various document types (PDF, PNG, JPEG).
 
-* Successfully created and configured an AWS Free Tier account.
+* **Complete Analytics & Reports Dashboard:**
+  * Finished building the Amazon QuickSight dashboard connected to DynamoDB, enabling real-time metrics update.
+  * Visualized key metrics including total revenue, monthly invoice volumes, tag classifications, and filters based on vendors and clients.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* **Security Reviews & System Integration Testing:**
+  * Reviewed all security policies, locking down access with granular IAM Policies matching Least Privilege standards.
+  * Successfully resolved CORS issues on API Gateway and Lambda execution timeout errors when processing large-sized invoice documents.
+  * Prepared detailed technical specifications, presentation slides, and screen-recordings of system workflows for final evaluation.

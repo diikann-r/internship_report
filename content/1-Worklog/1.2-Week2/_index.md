@@ -1,57 +1,40 @@
 ---
 title: "Week 2 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-04-24
+weight: 20
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
-
 ### Week 2 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Learn and configure Amazon VPC networking in-depth.
+* Establish secure connections via AWS VPN Site-to-Site and partition subnets.
+* Configure routing and traffic management components including Route Tables, Internet Gateway, and NAT Gateway.
+* Deploy network security layers by setting up Security Groups and Network ACLs.
+* Use VPC Resource Map to visualize and manage the configured network resources topology.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
+| Fri | - Learn and configure Amazon VPC in-depth: CIDR, VPC Peering, Flow Logs, Endpoints | 24/04/2026 | 24/04/2026 | |
+| Sat | - Establish secure connection via AWS VPN Site-to-Site: Customer Gateway, Virtual Private Gateway, VPN Tunnel | 25/04/2026 | 25/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Sun | - Partition and configure subnets: Public/Private Subnets, Availability Zones, CIDR block planning | 26/04/2026 | 26/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Mon | - Configure routing and traffic management: Route Tables, Internet Gateway, NAT Gateway | 27/04/2026 | 27/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Tue | - Deploy network security layers: configure Security Groups (inbound/outbound rules) and Network ACLs | 28/04/2026 | 28/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Wed | - Use VPC Resource Map to visualize and manage the configured network resource topology | 29/04/2026 | 29/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thu | - Verify connectivity and traffic flow between Subnets, VPN, and Internet <br> - Consolidate and optimize VPC configuration | 30/04/2026 | 30/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Week 2 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Mastered the architecture and in-depth configuration of Amazon VPC:
+  * CIDR block assignment.
+  * VPC Peering and Flow Logs.
+  * VPC Endpoints.
+* Configured secure AWS VPN Site-to-Site connections:
+  * Configured Customer Gateway and Virtual Private Gateway.
+  * Ensured VPN Tunnel connectivity operates stably.
+  * Properly partitioned Subnets (Public/Private).
+* Configured routing and traffic management components:
+  * Set up Route Tables, Internet Gateway, and NAT Gateway to direct traffic correctly.
+* Deployed network security layers (Security Groups and Network ACLs) to secure all subnets.
+* Successfully visualized and managed the resources utilizing the VPC Resource Map tool.
