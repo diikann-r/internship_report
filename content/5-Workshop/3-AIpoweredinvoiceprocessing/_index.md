@@ -11,8 +11,8 @@ In this section, you will deploy Lambda functions to process invoices using Arti
 
 ### Contents
 
--  [Create IAM Role](3.1-createlambdarole/)
--  [Create Lambda Function #1](3.2-createlambdafunction-upload/)
--  [Test Lambda Function #1](3.3-testlambdafunction-upload/)
--  [Create Lambda Function #2](3.4-createlambdafunction-fetch/)
--  [Test Lambda Function #2](3.5-testlambdafunction-fetch/)
+- [Create IAM Role](3.1-createlambdarole/)
+- [Create Lambda Function #1](3.2-createlambdafunction-upload/)
+- [Test Lambda Function #1](3.3-testlambdafunction-upload/)
+- [Create Lambda Function #2](3.4-createlambdafunction-fetch/)
+- [Test Lambda Function #2](3.5-testlambdafunction-fetch/)

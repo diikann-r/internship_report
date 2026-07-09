@@ -514,9 +514,9 @@ def lambda_handler(event, context):
 
 2.  Configure the information as follows:
 
-    -  **Description**: `Retrieves invoice data from DynamoDB based on invoice ID via API Gateway request`
-    -  **Memory (MB)**: 128
-    -  **Timeout**: 3 seconds
+    - **Description**: `Retrieves invoice data from DynamoDB based on invoice ID via API Gateway request`
+    - **Memory (MB)**: 128
+    - **Timeout**: 3 seconds
 
 ![Set Memory and Timeout](/images/3.lambdafunctions/3.4-fetchinvoicelambda/008-settimeout.png)
 

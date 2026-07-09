@@ -47,8 +47,8 @@ Trong phần này, bạn sẽ tạo **REST API Gateway** để tiếp nhận hó
 
 2.  Nhập thông tin:
 
-    -  **Resource path**: `/`
-    -  **Resource name**: `uploads`
+    - **Resource path**: `/`
+    - **Resource name**: `uploads`
 
 3.  Nhấn **Create resource**.
 
@@ -107,8 +107,8 @@ Trong phần này, bạn sẽ tạo **REST API Gateway** để tiếp nhận hó
 
 3.  Tại **Access-Control-Allow-Methods**, bật CORS cho:
 
-    -  POST
-    -  PUT
+    - POST
+    - PUT
 
 4.  Nhấn **Save**.
 

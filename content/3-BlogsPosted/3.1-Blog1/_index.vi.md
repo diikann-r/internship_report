@@ -14,7 +14,7 @@ Tại **AWS Summit New York 2026**, Swami Sivasubramanian - Phó chủ tịch AW
 
 ---
 
-## 📸 Sơ đồ quy trình làm việc của AI Agent (AI Agent Workflow)
+## Sơ đồ quy trình làm việc của AI Agent (AI Agent Workflow)
 
 Dưới đây là sơ đồ tổng quan về quy trình làm việc chuẩn hóa của một AI Agent trong doanh nghiệp, từ khâu tiếp nhận dữ liệu đầu vào cho đến xử lý, kiểm soát và thực thi hành động:
 
@@ -22,7 +22,7 @@ Dưới đây là sơ đồ tổng quan về quy trình làm việc chuẩn hóa
 
 ---
 
-## 📢 1. Các công bố lớn xoay quanh AI Agent & Tự động hóa
+## 1. Các công bố lớn xoay quanh AI Agent & Tự động hóa
 
 ### Amazon Bedrock AgentCore có nhiều năng lực mới
 AWS giới thiệu các tính năng giúp AI agent kết nối với tri thức nội bộ doanh nghiệp, web và nguồn dữ liệu trả phí. Mục tiêu là giúp doanh nghiệp xây dựng agent nhanh hơn, có kiểm soát tốt hơn, và liên tục cải thiện agent khi đưa vào môi trường production.
@@ -42,7 +42,7 @@ Nhà phát triển có thể cấu hình model, tool, skill và instruction đ�
 ### AWS Continuum và Security Agent
 AWS giới thiệu công cụ bảo mật dùng AI để ưu tiên lỗ hổng theo tác động kinh doanh, xác minh khả năng bị khai thác, hỗ trợ threat modeling theo STRIDE, quét pull request và đề xuất sửa lỗi ngay trong workflow của nhà phát triển.
 
-### 📱 Kiro cho iOS
+### Kiro cho iOS
 Kiro có ứng dụng iOS native, cho phép nhà phát triển khởi tạo, theo dõi, điều hướng session, xem diff và duyệt thay đổi mã nguồn ngay từ điện thoại di động.
 
 ### AWS DevOps Agent có năng lực quản lý release
@@ -51,7 +51,7 @@ Agent này có thể đánh giá mức độ sẵn sàng trước khi release v�
 ### AWS Transform - Hiện đại hóa liên tục (Continuous Modernization)
 Công cụ này phân tích repository liên tục, phát hiện nợ kỹ thuật (technical debt), ưu tiên các vấn đề nghiêm trọng và tự động tạo pull request để sửa lỗi.
 
-### 🏷️ Amazon S3 Annotations
+### ️ Amazon S3 Annotations
 S3 cho phép gắn metadata/ngữ cảnh phong phú và có thể truy vấn trực tiếp vào object. Tính năng này cực kỳ hữu ích cho AI agent và workflow tự động cần hiểu dữ liệu ở quy mô lớn.
 
 ---
@@ -84,5 +84,5 @@ Mặc dù các doanh nghiệp rất muốn ứng dụng AI agent, họ vẫn đa
 
 ---
 
-## 🔗 Tài liệu tham khảo
+## Tài liệu tham khảo
 * Đọc bài viết gốc trên AWS Blog: [Top Announcements of the AWS Summit in New York 2026](https://aws.amazon.com/blogs/aws/top-announcements-of-the-aws-summit-in-new-york-2026/)

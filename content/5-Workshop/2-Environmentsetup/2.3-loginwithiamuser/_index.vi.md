@@ -13,9 +13,9 @@ Trong bước này, bạn sẽ đăng nhập vào **IAM User** được cấp qu
 
 #### Bước 1: Mở trình duyệt ở chế độ ẩn danh
 
--  Mở Google Chrome (hoặc trình duyệt bạn đang sử dụng) ở **chế độ ẩn danh**.
--  Cách nhanh nhất: Nhấn tổ hợp phím **Ctrl + Shift + N**.
--  Việc này giúp bạn tránh các xung đột phiên đăng nhập nếu đang sử dụng nhiều tài khoản AWS.
+- Mở Google Chrome (hoặc trình duyệt bạn đang sử dụng) ở **chế độ ẩn danh**.
+- Cách nhanh nhất: Nhấn tổ hợp phím **Ctrl + Shift + N**.
+- Việc này giúp bạn tránh các xung đột phiên đăng nhập nếu đang sử dụng nhiều tài khoản AWS.
 
 ![IAM User](/images/2.environmentsetup/2.3-loginwithiamuser/001-loginwithiamuser.png)
 
@@ -23,12 +23,12 @@ Trong bước này, bạn sẽ đăng nhập vào **IAM User** được cấp qu
 
 #### Bước 2: Mở file Excel chứa thông tin IAM User
 
--  Mở file Excel đã được tải về từ người quản trị hệ thống.
--  Trong file này, bạn sẽ thấy các thông tin sau:
+- Mở file Excel đã được tải về từ người quản trị hệ thống.
+- Trong file này, bạn sẽ thấy các thông tin sau:
 
-    -  **Account ID**
-    -  **IAM User name**
-    -  **Password**
+    - **Account ID**
+    - **IAM User name**
+    - **Password**
 
 ![IAM User](/images/2.environmentsetup/2.3-loginwithiamuser/002-loginwithiamuser.png)
 
@@ -40,7 +40,7 @@ Thông tin này thường được cung cấp cho bạn qua email hoặc file đ
 
 #### Bước 3: Truy cập trang đăng nhập IAM
 
--  Truy cập đường dẫn đăng nhập IAM có dạng:
+- Truy cập đường dẫn đăng nhập IAM có dạng:
 
     ```
     https://<ACCOUNT_ID>.signin.aws.amazon.com/console
@@ -52,12 +52,12 @@ Thông tin này thường được cung cấp cho bạn qua email hoặc file đ
 
 #### Bước 4: Nhập thông tin đăng nhập
 
--  **IAM user name**: Nhập đúng tên người dùng IAM từ file Excel.
--  **Password**: Nhập mật khẩu tương ứng.
+- **IAM user name**: Nhập đúng tên người dùng IAM từ file Excel.
+- **Password**: Nhập mật khẩu tương ứng.
 
 ![IAM User](/images/2.environmentsetup/2.3-loginwithiamuser/003-loginwithiamuser.png)
 
--  Sau đó nhấn nút **Sign in** để vào hệ thống.
+- Sau đó nhấn nút **Sign in** để vào hệ thống.
 
 ![IAM User](/images/2.environmentsetup/2.3-loginwithiamuser/004-loginwithiamuser.png)
 
@@ -65,11 +65,11 @@ Thông tin này thường được cung cấp cho bạn qua email hoặc file đ
 
 #### Bước 5: Chỉnh lại Region về Singapore
 
--  Sau khi đăng nhập thành công vào AWS Management Console:
+- Sau khi đăng nhập thành công vào AWS Management Console:
 
-    -  Nhìn lên **góc trên bên phải** màn hình.
-    -  Nhấn vào tên Region hiện tại.
-    -  Chọn lại **Singapore** (ap-southeast-1).
+    - Nhìn lên **góc trên bên phải** màn hình.
+    - Nhấn vào tên Region hiện tại.
+    - Chọn lại **Singapore** (ap-southeast-1).
 
 ![IAM User](/images/2.environmentsetup/2.3-loginwithiamuser/005-loginwithiamuser.png)
 

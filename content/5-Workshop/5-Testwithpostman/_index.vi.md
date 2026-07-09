@@ -11,10 +11,10 @@ Trong phần này, bạn sẽ thực hiện các thao tác kiểm thử API liê
 
 ### Nội dung
 
--  [Kiểm thử upload file hóa đơn](5.1-Testuploadfile/)
--  [Kiểm thử lấy tất cả hóa đơn](5.2-Testgetallinvoices/)
--  [Kiểm thử lấy hóa đơn theo ID](5.3-TestgetinvoiceID/)
--  [Kiểm thử lấy hóa đơn được đánh dấu](5.4-TestgetinvoicesSTARRED/)
--  [Kiểm thử cập nhật hóa đơn đánh dấu](5.5-TestupdatestatusSTARRED/)
--  [Kiểm thử cập nhật tags hóa đơn](5.6-Testupdatetags/)
--  [Kiểm thử lấy hóa đơn theo tên khách hàng](5.7-Testgetinvoicebyname/)
+- [Kiểm thử upload file hóa đơn](5.1-Testuploadfile/)
+- [Kiểm thử lấy tất cả hóa đơn](5.2-Testgetallinvoices/)
+- [Kiểm thử lấy hóa đơn theo ID](5.3-TestgetinvoiceID/)
+- [Kiểm thử lấy hóa đơn được đánh dấu](5.4-TestgetinvoicesSTARRED/)
+- [Kiểm thử cập nhật hóa đơn đánh dấu](5.5-TestupdatestatusSTARRED/)
+- [Kiểm thử cập nhật tags hóa đơn](5.6-Testupdatetags/)
+- [Kiểm thử lấy hóa đơn theo tên khách hàng](5.7-Testgetinvoicebyname/)

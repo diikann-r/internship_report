@@ -14,7 +14,7 @@ At the **AWS Summit New York 2026**, Swami Sivasubramanian, Vice President of AW
 
 ---
 
-## 📸 AI Agent Workflow Diagram
+## AI Agent Workflow Diagram
 
 Below is an overview diagram of the standardized AI Agent workflow in the enterprise, from data ingestion to processing, governance, and final action:
 
@@ -22,7 +22,7 @@ Below is an overview diagram of the standardized AI Agent workflow in the enterp
 
 ---
 
-## 📢 1. Key Announcements around AI Agents & Automation
+## 1. Key Announcements around AI Agents & Automation
 
 ### New Capabilities in Amazon Bedrock AgentCore
 AWS introduced features that help AI agents connect to corporate internal knowledge bases, the web, and paid data sources. The goal is to help enterprises build agents faster, with better control, and continuously improve them in production.
@@ -42,7 +42,7 @@ Developers can configure models, tools, skills, and instructions to run producti
 ### AWS Continuum and Security Agent
 AWS introduced AI-driven security tools to prioritize vulnerabilities based on business impact, verify exploitability, support STRIDE-based threat modeling, scan pull requests, and suggest fixes directly in the developer's workflow.
 
-### 📱 Kiro for iOS
+### Kiro for iOS
 Kiro features a native iOS app, allowing developers to initialize, monitor, navigate sessions, view diffs, and approve code changes directly from their mobile phones.
 
 ### AWS DevOps Agent with Release Management
@@ -51,7 +51,7 @@ This agent can evaluate release readiness and run automated tests in production-
 ### AWS Transform for Continuous Modernization
 This tool continuously analyzes code repositories, detects technical debt, prioritizes issues, and automatically generates pull requests to fix them.
 
-### 🏷️ Amazon S3 Annotations
+### ️ Amazon S3 Annotations
 S3 allows rich, queryable metadata/context to be attached directly to objects. This is highly useful for AI agents and automated workflows that need to understand data at scale.
 
 ---
@@ -84,5 +84,5 @@ To address these challenges, AWS introduces a unified suite of AI-driven automat
 
 ---
 
-## 🔗 Reference Material
+## Reference Material
 * Read the original post on the AWS Blog: [Top Announcements of the AWS Summit in New York 2026](https://aws.amazon.com/blogs/aws/top-announcements-of-the-aws-summit-in-new-york-2026/)

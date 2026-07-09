@@ -47,7 +47,7 @@ This procedure has some limitations:
 - Difficult to collect statistics, compare and audit.
 - Difficult to integrate with data management or reporting systems.
 
-➡️ **The need** is to build a system that can receive multi-format invoices, automatically extract content, standardize data using AI, centrally store and support quick retrieval.
+️ **The need** is to build a system that can receive multi-format invoices, automatically extract content, standardize data using AI, centrally store and support quick retrieval.
 
 ### Key challenges
 

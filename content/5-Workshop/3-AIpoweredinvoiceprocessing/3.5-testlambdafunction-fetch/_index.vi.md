@@ -27,8 +27,8 @@ Trong bước này, bạn sẽ thực hiện kiểm thử Lambda Function **Fetc
 
 4.  Kéo xuống đến phần **Test event** và cấu hình như sau:
 
-    -  **Event name**: `TestGetInvoice`
-    -  **Template**: Hello World
+    - **Event name**: `TestGetInvoice`
+    - **Template**: Hello World
 
 ![Test event](/images/3.lambdafunctions/3.5-testfetch/004-createevent.png)
 
@@ -62,6 +62,6 @@ Trong bước này, bạn sẽ thực hiện kiểm thử Lambda Function **Fetc
 
 2.  Quan sát phần **Execution results** được hiển thị sau khi chạy:
 
-    -  Nếu chạy thành công, bạn sẽ thấy dòng: **Status: succeeded** cùng với log output hiển thị nội dung xử lý.
+    - Nếu chạy thành công, bạn sẽ thấy dòng: **Status: succeeded** cùng với log output hiển thị nội dung xử lý.
 
 ![Execution results](/images/3.lambdafunctions/3.5-testfetch/008-executionresult.png)

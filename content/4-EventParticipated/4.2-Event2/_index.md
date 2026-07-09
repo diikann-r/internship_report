@@ -72,7 +72,7 @@ pre: " <b> 4.2. </b> "
 
 ### Key Takeaways
 
-#### ☁️ Cloud & Infrastructure Knowledge
+#### ️ Cloud & Infrastructure Knowledge
 * Understood Docker containerization advantages over Virtual Machines in resource optimization and environment consistency.
 * Mastered Docker Image/Container management workflows and the role of Docker in Cloud-native ecosystems.
 * Learned the design of real-time multiplayer connections using API Gateway WebSockets, AWS Lambda, and DynamoDB.

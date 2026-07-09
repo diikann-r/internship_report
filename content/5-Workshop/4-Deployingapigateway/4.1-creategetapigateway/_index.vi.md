@@ -49,8 +49,8 @@ Phần này hướng dẫn bạn tạo REST API tên **GetInvoiceAPI** với cá
 
 2.  Nhập thông tin:
 
-    -  **Resource path**: `/`
-    -  **Resource name**: `invoice`
+    - **Resource path**: `/`
+    - **Resource name**: `invoice`
 
 3.  Nhấn **Create resource**.
 
@@ -66,10 +66,10 @@ Phần này hướng dẫn bạn tạo REST API tên **GetInvoiceAPI** với cá
 
 6.  Cấu hình trong phần **Create method**:
 
-    -  **Method type**: GET.
-    -  **Integration type**: Lambda function.
-    -  **Lambda proxy integration**: Bật.
-    -  **Lambda function**: FetchInvoiceDetailsFunction.
+    - **Method type**: GET.
+    - **Integration type**: Lambda function.
+    - **Lambda proxy integration**: Bật.
+    - **Lambda function**: FetchInvoiceDetailsFunction.
 
 ![Configuration](/images/4.deployingapigatewayandfrontend/4.1-creategetapigateway/09-configuration.png)
 
@@ -95,8 +95,8 @@ Phần này hướng dẫn bạn tạo REST API tên **GetInvoiceAPI** với cá
 
 3.  Nhập thông tin:
 
-    -  **Resource path**: `/invoice/`
-    -  **Resource name**: `{id}`
+    - **Resource path**: `/invoice/`
+    - **Resource name**: `{id}`
 
 4.  Nhấn **Create resource**.
 
@@ -112,10 +112,10 @@ Phần này hướng dẫn bạn tạo REST API tên **GetInvoiceAPI** với cá
 
 7.  Cấu hình trong phần **Create method**:
 
-    -  **Method type**: GET.
-    -  **Integration type**: Lambda function.
-    -  **Lambda proxy integration**: Bật.
-    -  **Lambda function**: FetchInvoiceDetailsFunction.
+    - **Method type**: GET.
+    - **Integration type**: Lambda function.
+    - **Lambda proxy integration**: Bật.
+    - **Lambda function**: FetchInvoiceDetailsFunction.
 
 ![Configuration](/images/4.deployingapigatewayandfrontend/4.1-creategetapigateway/018-configuration.png)
 
@@ -127,16 +127,16 @@ Phần này hướng dẫn bạn tạo REST API tên **GetInvoiceAPI** với cá
 
 9.  Tiếp tục thêm method **PATCH**.
 
-    -  Chọn lại nó trong cây tài nguyên và nhấn **Create method**.
+    - Chọn lại nó trong cây tài nguyên và nhấn **Create method**.
 
 ![Choose resource & click create method](/images/4.deployingapigatewayandfrontend/4.1-creategetapigateway/020-resource-and-createmethod.png)
 
--  Thực hiện cấu hình tương tự như trên:
+- Thực hiện cấu hình tương tự như trên:
 
-    -  **Method type**: PATCH
-    -  **Integration type**: Lambda Function
-    -  **Use Lambda Proxy integration**: Bật
-    -  **Lambda Function**: FetchInvoiceDetailsFunction
+    - **Method type**: PATCH
+    - **Integration type**: Lambda Function
+    - **Use Lambda Proxy integration**: Bật
+    - **Lambda Function**: FetchInvoiceDetailsFunction
 
 ![Configuration](/images/4.deployingapigatewayandfrontend/4.1-creategetapigateway/021-configuration.png)
 
@@ -156,8 +156,8 @@ Phần này hướng dẫn bạn tạo REST API tên **GetInvoiceAPI** với cá
 
 3.  Cấu hình:
 
-    -  **Resource path**: `/invoice/`
-    -  **Resource name**: `starred`
+    - **Resource path**: `/invoice/`
+    - **Resource name**: `starred`
 
 4.  Nhấn **Create resource**.
 
@@ -173,10 +173,10 @@ Phần này hướng dẫn bạn tạo REST API tên **GetInvoiceAPI** với cá
 
 7.  Cấu hình trong phần **Create method**:
 
-    -  **Method type**: GET.
-    -  **Integration type**: Lambda function.
-    -  **Lambda proxy integration**: Bật.
-    -  **Lambda function**: FetchInvoiceDetailsFunction.
+    - **Method type**: GET.
+    - **Integration type**: Lambda function.
+    - **Lambda proxy integration**: Bật.
+    - **Lambda function**: FetchInvoiceDetailsFunction.
 
 ![Configuration](/images/4.deployingapigatewayandfrontend/4.1-creategetapigateway/027-configuration.png)
 
@@ -196,8 +196,8 @@ Phần này hướng dẫn bạn tạo REST API tên **GetInvoiceAPI** với cá
 
 3.  Cấu hình:
 
-    -  **Resource path**: `/invoice/starred/`
-    -  **Resource name**: `{id}`
+    - **Resource path**: `/invoice/starred/`
+    - **Resource name**: `{id}`
 
 4.  Nhấn **Create resource**.
 
@@ -210,10 +210,10 @@ Phần này hướng dẫn bạn tạo REST API tên **GetInvoiceAPI** với cá
 
 7.  Cấu hình trong phần **Create method**:
 
-    -  **Method type**: PATCH.
-    -  **Integration type**: Lambda function.
-    -  **Lambda proxy integration**: Bật.
-    -  **Lambda function**: FetchInvoiceDetailsFunction.
+    - **Method type**: PATCH.
+    - **Integration type**: Lambda function.
+    - **Lambda proxy integration**: Bật.
+    - **Lambda function**: FetchInvoiceDetailsFunction.
 
 ![Configuration](/images/4.deployingapigatewayandfrontend/4.1-creategetapigateway/032-configuration.png)
 
@@ -233,8 +233,8 @@ Phần này hướng dẫn bạn tạo REST API tên **GetInvoiceAPI** với cá
 
 3.  Cấu hình:
 
-    -  **Resource path**: `/invoice/`
-    -  **Resource name**: `tags`
+    - **Resource path**: `/invoice/`
+    - **Resource name**: `tags`
 
 4.  Nhấn **Create resource**.
 
@@ -249,8 +249,8 @@ Phần này hướng dẫn bạn tạo REST API tên **GetInvoiceAPI** với cá
 
 3.  Cấu hình:
 
-    -  **Resource path**: `/invoice/tags/`
-    -  **Resource name**: `{id}`
+    - **Resource path**: `/invoice/tags/`
+    - **Resource name**: `{id}`
 
 4.  Nhấn **Create resource**.
 
@@ -263,10 +263,10 @@ Phần này hướng dẫn bạn tạo REST API tên **GetInvoiceAPI** với cá
 
 7.  Cấu hình trong phần **Create method**:
 
-    -  **Method type**: PATCH.
-    -  **Integration type**: Lambda function.
-    -  **Lambda proxy integration**: Bật.
-    -  **Lambda function**: FetchInvoiceDetailsFunction.
+    - **Method type**: PATCH.
+    - **Integration type**: Lambda function.
+    - **Lambda proxy integration**: Bật.
+    - **Lambda function**: FetchInvoiceDetailsFunction.
 
 ![Configuration](/images/4.deployingapigatewayandfrontend/4.1-creategetapigateway/032-configuration.png)
 
@@ -283,8 +283,8 @@ Phần này hướng dẫn bạn tạo REST API tên **GetInvoiceAPI** với cá
 
 3.  Tại **Access-Control-Allow-Methods**, bật CORS cho:
 
-    -  GET
-    -  PATCH
+    - GET
+    - PATCH
 
 4.  Nhấn **Save**.
 
@@ -292,8 +292,8 @@ Phần này hướng dẫn bạn tạo REST API tên **GetInvoiceAPI** với cá
 
 5.  Lặp lại các bước trên cho từng resource còn lại:
 
-    -  **/invoice/starred/{id}**: bật CORS cho `PATCH`
-    -  **/invoice/tags/{id}**: bật CORS cho `PATCH`
+    - **/invoice/starred/{id}**: bật CORS cho `PATCH`
+    - **/invoice/tags/{id}**: bật CORS cho `PATCH`
 
 ![Result](/images/4.deployingapigatewayandfrontend/4.1-creategetapigateway/041-result-cors.png)
 

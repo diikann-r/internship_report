@@ -11,5 +11,5 @@ Trong phần này, bạn sẽ triển khai API Gateway để giao tiếp giữa 
 
 ### Nội dung
 
--  [Tạo API Gateway (GET)](4.1-creategetapigateway/)
--  [Tạo API Gateway (POST)](4.2-createpostapigateway/)
+- [Tạo API Gateway (GET)](4.1-creategetapigateway/)
+- [Tạo API Gateway (POST)](4.2-createpostapigateway/)

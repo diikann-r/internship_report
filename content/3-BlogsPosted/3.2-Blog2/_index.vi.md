@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 3.2. </b> "
 ---
 
-# 🔒 Biến AWS Console Sign-in thành một lớp kiểm soát bảo mật mạng doanh nghiệp
+# Biến AWS Console Sign-in thành một lớp kiểm soát bảo mật mạng doanh nghiệp
 
 Để giúp doanh nghiệp giảm rủi ro lạm dụng thông tin đăng nhập (credential abuse) ở ngoài phạm vi mạng nội bộ, tăng khả năng tuân thủ và thiết lập chính sách quản trị bảo mật nhất quán trên nhiều tài khoản, AWS đã giới thiệu giải pháp giới hạn quyền đăng nhập vào **AWS Management Console** và phiên đăng nhập CLI (**aws login CLI**) chỉ từ các mạng được kỳ vọng.
 
@@ -18,7 +18,7 @@ Ví dụ:
 
 ---
 
-## 📸 Sơ đồ kiểm soát truy cập AWS Management Console & CLI (Architecture Diagram)
+## Sơ đồ kiểm soát truy cập AWS Management Console & CLI (Architecture Diagram)
 
 Dưới đây là sơ đồ mô tả cách AWS Sign-In áp dụng các chính sách kiểm soát dựa trên tài nguyên và RCP để phân loại, cho phép hoặc từ chối các yêu cầu truy cập từ mạng:
 
@@ -26,7 +26,7 @@ Dưới đây là sơ đồ mô tả cách AWS Sign-In áp dụng các chính s�
 
 ---
 
-## 📢 1. Ý nghĩa và cơ chế hoạt động
+## 1. Ý nghĩa và cơ chế hoạt động
 
 Cơ chế này đặc biệt quan trọng vì nó đưa kiểm soát bảo mật lên ngay tại lớp **AWS Sign-In**, tức là **trước hoặc trong quá trình** người dùng thiết lập phiên làm việc Console. 
 
@@ -54,7 +54,7 @@ Các doanh nghiệp thường đối mặt với các rủi ro bảo mật nghi�
 
 AWS đề xuất một bộ giải pháp tích hợp để giải quyết các vấn đề trên:
 
-### 📄 Sign-in Resource-Based Policy cho từng tài khoản
+### Sign-in Resource-Based Policy cho từng tài khoản
 Quản trị viên cấu hình chính sách phủ quyết (**Deny**) đăng nhập nếu request không đến từ dải IP (Corporate CIDR) hoặc VPC ID được cho phép. Bạn có thể tạo policy này dễ dàng thông qua AWS CLI bằng cách truyền vào các tham số:
 * Dải IP (CIDR) mạng công ty.
 * VPC ID được phép và Region tương ứng.
@@ -71,10 +71,10 @@ Toàn bộ lịch sử đăng nhập sẽ được ghi lại chi tiết:
 * **Hợp lệ**: Ghi nhận sự kiện `ConsoleLogin` với trạng thái `Success`.
 * **Không hợp lệ**: Ghi nhận sự kiện `ConsoleLogin` với trạng thái `Failure` và mã lỗi `AccessDenied`.
 
-### 🏢 Sử dụng RCPs trong AWS Organizations
+### Sử dụng RCPs trong AWS Organizations
 Áp dụng Resource Control Policies ở cấp thư mục gốc (Root Organization) hoặc Đơn vị tổ chức (OU) để đồng bộ hóa và thực thi chính sách bảo mật mạng đồng nhất trên toàn bộ các tài khoản con mà không cần cấu hình thủ công từng tài khoản.
 
-### 🌐 Kết hợp với Console Private Access & Data Perimeter
+### Kết hợp với Console Private Access & Data Perimeter
 Sự kết hợp này giúp hình thành một vành đai bảo mật dữ liệu toàn diện:
 - **Network Perimeter**: Chỉ cho phép đăng nhập từ mạng tin cậy.
 - **Identity Perimeter**: Chỉ cho phép danh tính (identity) tin cậy được đăng nhập.
@@ -82,5 +82,5 @@ Sự kết hợp này giúp hình thành một vành đai bảo mật dữ liệ
 
 ---
 
-## 🔗 Tài liệu tham khảo
+## Tài liệu tham khảo
 * Đọc bài viết gốc trên AWS Security Blog: [Restrict AWS Management Console Access to Expected Networks with Sign-in Resource-Based Policies and RCPs](https://aws.amazon.com/blogs/security/restrict-aws-management-console-access-to-expected-networks-with-sign-in-resource-based-policies-and-rcps/)

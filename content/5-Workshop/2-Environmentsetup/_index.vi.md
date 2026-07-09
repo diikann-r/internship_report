@@ -11,10 +11,10 @@ Trong phần này, bạn sẽ thiết lập các tài nguyên cần thiết cho 
 
 ### Nội dung
 
--  [Tạo IAM Policies](2.1-createpolicy/)
--  [Tạo IAM User và cấp quyền](2.2-createiamuserandattachpolicy/)
--  [Đăng nhập IAM User](2.3-loginwithiamuser/)
--  [Tạo S3 Bucket](2.4-creates3bucketforinvoices/)
--  [Tạo DynamoDB Table](2.5-createdynamodbtableforinvoices/)
--  [Yêu cầu Nova Pro Access](2.6-requestnovaproaccess/)
+- [Tạo IAM Policies](2.1-createpolicy/)
+- [Tạo IAM User và cấp quyền](2.2-createiamuserandattachpolicy/)
+- [Đăng nhập IAM User](2.3-loginwithiamuser/)
+- [Tạo S3 Bucket](2.4-creates3bucketforinvoices/)
+- [Tạo DynamoDB Table](2.5-createdynamodbtableforinvoices/)
+- [Yêu cầu Nova Pro Access](2.6-requestnovaproaccess/)
 

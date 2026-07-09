@@ -156,8 +156,8 @@ Configure similarly:
 
 3.  Configure:
 
-    -  **Resource path**: `/invoice/`
-    -  **Resource name**: `starred`
+    - **Resource path**: `/invoice/`
+    - **Resource name**: `starred`
 
 4.  Click **Create resource**.
 
@@ -173,10 +173,10 @@ Configure similarly:
 
 7.  Configure the **Create method**:
 
-    -  **Method type**: GET.
-    -  **Integration type**: Lambda function.
-    -  **Lambda proxy integration**: Enabled.
-    -  **Lambda function**: FetchInvoiceDetailsFunction.
+    - **Method type**: GET.
+    - **Integration type**: Lambda function.
+    - **Lambda proxy integration**: Enabled.
+    - **Lambda function**: FetchInvoiceDetailsFunction.
 
 ![Configuration](/images/4.deployingapigatewayandfrontend/4.1-creategetapigateway/027-configuration.png)
 
@@ -196,8 +196,8 @@ Configure similarly:
 
 3.  Configure:
 
-    -  **Resource path**: `/invoice/starred/`
-    -  **Resource name**: `{id}`
+    - **Resource path**: `/invoice/starred/`
+    - **Resource name**: `{id}`
 
 4.  Click **Create resource**.
 
@@ -210,10 +210,10 @@ Configure similarly:
 
 7.  Configure the **Create method**:
 
-    -  **Method type**: PATCH.
-    -  **Integration type**: Lambda function.
-    -  **Lambda proxy integration**: Enabled.
-    -  **Lambda function**: FetchInvoiceDetailsFunction.
+    - **Method type**: PATCH.
+    - **Integration type**: Lambda function.
+    - **Lambda proxy integration**: Enabled.
+    - **Lambda function**: FetchInvoiceDetailsFunction.
 
 ![Configuration](/images/4.deployingapigatewayandfrontend/4.1-creategetapigateway/032-configuration.png)
 
@@ -233,8 +233,8 @@ Configure similarly:
 
 3.  Configure:
 
-    -  **Resource path**: `/invoice/`
-    -  **Resource name**: `tags`
+    - **Resource path**: `/invoice/`
+    - **Resource name**: `tags`
 
 4.  Click **Create resource**.
 
@@ -249,8 +249,8 @@ Configure similarly:
 
 3.  Configure:
 
-    -  **Resource path**: `/invoice/tags/`
-    -  **Resource name**: `{id}`
+    - **Resource path**: `/invoice/tags/`
+    - **Resource name**: `{id}`
 
 4.  Click **Create resource**.
 
@@ -263,10 +263,10 @@ Configure similarly:
 
 7.  Configure the **Create method**:
 
-    -  **Method type**: PATCH.
-    -  **Integration type**: Lambda function.
-    -  **Lambda proxy integration**: Enabled.
-    -  **Lambda function**: FetchInvoiceDetailsFunction.
+    - **Method type**: PATCH.
+    - **Integration type**: Lambda function.
+    - **Lambda proxy integration**: Enabled.
+    - **Lambda function**: FetchInvoiceDetailsFunction.
 
 ![Configuration](/images/4.deployingapigatewayandfrontend/4.1-creategetapigateway/032-configuration.png)
 
@@ -283,8 +283,8 @@ Configure similarly:
 
 1.  In **Access-Control-Allow-Methods**, Enabled CORS:
 
-    -  GET
-    -  PATCH
+    - GET
+    - PATCH
 
 2.  Click **Save**.
 
@@ -292,8 +292,8 @@ Configure similarly:
 
 5.  Repeat the above steps for the following resources:
 
-    -  **/invoice/starred/{id}**: Enabled CORS for `PATCH`
-    -  **/invoice/tags/{id}**: Enabled CORS for `PATCH`
+    - **/invoice/starred/{id}**: Enabled CORS for `PATCH`
+    - **/invoice/tags/{id}**: Enabled CORS for `PATCH`
 
 ![Result](/images/4.deployingapigatewayandfrontend/4.1-creategetapigateway/041-result-cors.png)
 

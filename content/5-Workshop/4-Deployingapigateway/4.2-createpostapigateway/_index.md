@@ -47,8 +47,8 @@ In this section, you will create a **REST API Gateway** to receive invoices uplo
 
 2.  Enter information:
 
-    -  **Resource path**: `/`
-    -  **Resource name**: `uploads`
+    - **Resource path**: `/`
+    - **Resource name**: `uploads`
 
 3.  Click **Create resource**.
 
@@ -107,8 +107,8 @@ In this section, you will create a **REST API Gateway** to receive invoices uplo
 
 3.  In **Access-Control-Allow-Methods**, enable CORS for:
 
-    -  POST
-    -  PUT
+    - POST
+    - PUT
 
 4.  Click **Save**.
 

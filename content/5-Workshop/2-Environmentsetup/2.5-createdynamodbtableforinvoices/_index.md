@@ -34,8 +34,8 @@ In this step, you will create a **DynamoDB Table** to store invoice information 
 
 2. **Partition key**:
 
--  **Name**: `InvoiceId`
--  **Type**: `String`
+- **Name**: `InvoiceId`
+- **Type**: `String`
 
 3. Skip the **Sort key** section (not necessary).
 
@@ -69,10 +69,10 @@ Once the **InvoiceData** table is successfully created, you will add two seconda
 
 3. Configuration:
 
--  **Partition key**: `CustomerName`
--  **Data type**: String
--  **Sort key**: _(leave blank)_
--  **Projected attributes**: select **All**
+- **Partition key**: `CustomerName`
+- **Data type**: String
+- **Sort key**: _(leave blank)_
+- **Projected attributes**: select **All**
 
 ![GSI 1](/images/2.environmentsetup/2.5-createdynamodb/008-gsi1.png)
 
@@ -92,10 +92,10 @@ Once the **InvoiceData** table is successfully created, you will add two seconda
 
 2. Configuration:
 
--  **Partition key**: `IsStarred` (type **String**)
--  **Sort key**: `CreatedAt` (type **String**)
--  **Index name**: `StarredInvoicesIndex`
--  **Projected attributes**: select **All**
+- **Partition key**: `IsStarred` (type **String**)
+- **Sort key**: `CreatedAt` (type **String**)
+- **Index name**: `StarredInvoicesIndex`
+- **Projected attributes**: select **All**
 
 ![GSI 2](/images/2.environmentsetup/2.5-createdynamodb/012-gsi2.png)
 

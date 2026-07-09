@@ -67,12 +67,12 @@ pre: " <b> 4.1. </b> "
 
 ### Những gì học được
 
-#### 🧠 Kỹ năng và tư duy phát triển bản thân
+#### Kỹ năng và tư duy phát triển bản thân
 * Hiểu rằng sự trì hoãn phần lớn xuất phát từ những nỗi sợ như sợ thất bại, sợ bị đánh giá hoặc sợ bản thân chưa đủ giỏi. Việc dám bắt đầu là bước quan trọng nhất để vượt qua nỗi sợ.
 * Nhận thức được rằng sự tự tin không phải là tố chất bẩm sinh mà là kỹ năng có thể rèn luyện thông qua quá trình chuẩn bị, thực hành và tích lũy những thành công nhỏ mỗi ngày.
 * Xây dựng tư duy chủ động, sẵn sàng đón nhận thử thách thay vì chờ đợi đến khi cảm thấy hoàn hảo mới bắt đầu.
 
-#### ☁️ Kiến thức về AWS và Cloud
+#### ️ Kiến thức về AWS và Cloud
 * Hiểu lộ trình học AWS hiệu quả thông qua AWS Cloud Quest kết hợp với Floci để thực hành mà không phải lo phát sinh chi phí trên môi trường Cloud thật.
 * Biết cách tận dụng môi trường mô phỏng AWS để kiểm thử nhanh kiến trúc trước khi triển khai lên hệ thống thực tế.
 * Nắm vững quy trình học Cloud theo 3 giai đoạn: xây dựng kiến thức nền, thực hành trên môi trường mô phỏng và triển khai lên AWS Production.
@@ -82,7 +82,7 @@ pre: " <b> 4.1. </b> "
 * Tầm quan trọng của tự động hóa, phản hồi nhanh, giao tiếp hiệu quả và cải tiến liên tục trong suốt vòng đời phát triển phần mềm.
 * Nhận ra nhiều vấn đề của dự án không nằm ở lỗi kỹ thuật mà xuất phát từ quy trình làm việc và sự phối hợp giữa các thành viên.
 
-#### 🏆 Tinh thần Hackathon
+#### Tinh thần Hackathon
 * Quy trình xây dựng nhanh một sản phẩm từ ý tưởng đến bản demo trong thời gian rất ngắn.
 * Cách làm việc nhóm dưới áp lực cao, phân chia công việc hợp lý và liên tục cải tiến sản phẩm.
 * Tận dụng tối đa AI để làm trợ lý hỗ trợ lập trình, thiết kế và phát triển sản phẩm hiệu quả.

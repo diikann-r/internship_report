@@ -72,7 +72,7 @@ pre: " <b> 4.2. </b> "
 
 ### Những gì học được
 
-#### ☁️ Kiến thức về Cloud và hạ tầng
+#### ️ Kiến thức về Cloud và hạ tầng
 * Hiểu ưu điểm vượt trội của Docker so với Virtual Machine trong việc đóng gói ứng dụng, tối ưu hóa tài nguyên phần cứng và bảo đảm tính đồng nhất khi triển khai.
 * Nắm vững quy trình quản lý Docker Image/Container và vai trò của Docker trong các hệ thống Cloud-native.
 * Hiểu cách xây dựng tính năng multiplayer thời gian thực sử dụng API Gateway WebSocket, AWS Lambda và DynamoDB.

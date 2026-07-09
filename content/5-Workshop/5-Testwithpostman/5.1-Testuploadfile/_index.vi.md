@@ -7,7 +7,7 @@ pre: " <b> 5.5.1</b> "
 
 #### Yêu cầu chuẩn bị
 
--  Đã cài đặt Postman ([https://www.postman.com/downloads](https://www.postman.com/downloads)).
+- Đã cài đặt Postman ([https://www.postman.com/downloads](https://www.postman.com/downloads)).
 
 ---
 
@@ -15,9 +15,9 @@ pre: " <b> 5.5.1</b> "
 
 Tải các tệp dưới đây trước khi kiểm thử API trên Postman:
 
--  [demo_invoice.png](https://drive.google.com/uc?export=download&id=1p_sRXNN9saZLPYJNATZNqV-NmydsUo3L)
--  [demo_invoice2.png](https://drive.google.com/uc?export=download&id=1D-5nvOvdM2Fo2hBTDICTgE8xY-kg7vvY)
--  [demo_invoice3.png](https://drive.google.com/uc?export=download&id=1h_4q-1Xy-MSuwAqXW7D4oTTsnjdn0USh)
+- [demo_invoice.png](https://drive.google.com/uc?export=download&id=1p_sRXNN9saZLPYJNATZNqV-NmydsUo3L)
+- [demo_invoice2.png](https://drive.google.com/uc?export=download&id=1D-5nvOvdM2Fo2hBTDICTgE8xY-kg7vvY)
+- [demo_invoice3.png](https://drive.google.com/uc?export=download&id=1h_4q-1Xy-MSuwAqXW7D4oTTsnjdn0USh)
 
 ---
 

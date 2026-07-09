@@ -447,7 +447,7 @@ def save_invoice_item(
 # PROCESS S3 OBJECT
 # ============================================================
 def process_s3_object(bucket, key):
-    print(f"📥 Processing S3 object: s3://{bucket}/{key}")
+    print(f" Processing S3 object: s3://{bucket}/{key}")
 
     if not key.startswith(UPLOAD_PREFIX):
         print(f"⏭️ Skip object outside upload prefix: {key}")
@@ -470,7 +470,7 @@ def process_s3_object(bucket, key):
     # Cache: nếu file đã xử lý thành công rồi thì không tốn Textract/OpenAI lần nữa
     existing = get_existing_success(invoice_id)
     if existing:
-        print(f"♻️ Cache hit. Skip Textract/OpenAI for InvoiceId={invoice_id}")
+        print(f"️ Cache hit. Skip Textract/OpenAI for InvoiceId={invoice_id}")
         return {
             "key": key,
             "invoice_id": invoice_id,
@@ -608,7 +608,7 @@ def lambda_handler(event, context):
         # }
         # ------------------------------------------------------------
         if "body" in event and isinstance(event.get("body"), str) and "Records" not in event:
-            print("🌐 API Gateway upload request received")
+            print(" API Gateway upload request received")
 
             body_text = event["body"]
 

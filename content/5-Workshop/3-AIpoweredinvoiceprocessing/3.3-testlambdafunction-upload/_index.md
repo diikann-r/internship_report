@@ -15,10 +15,10 @@ In this step, you will test the **UploadInvoiceFileFunction** Lambda Function by
 
 Before testing the Lambda function, prepare a sample invoice file to upload. Please download the following file:
 
--  -   [demo_invoice.png](https://drive.google.com/file/d/1EcicofEM9axww3cfS1TMa0cX37S0otDx/view?usp=drive_link)
+- -   [demo_invoice.png](https://drive.google.com/file/d/1EcicofEM9axww3cfS1TMa0cX37S0otDx/view?usp=drive_link)
 
 {{% notice info %}}
-🔧 **Note**: If you use a different invoice file, rename it to **demo_invoice.png** before uploading to the **uploads/** folder in S3.  
+ **Note**: If you use a different invoice file, rename it to **demo_invoice.png** before uploading to the **uploads/** folder in S3.  
 {{% /notice %}}
 
 ---
@@ -113,7 +113,7 @@ Before testing the Lambda function, prepare a sample invoice file to upload. Ple
 
 2.  Observe the **Execution results** displayed after the run:
 
-    -  If successful, you will see: **Status: succeeded** along with log output.
+    - If successful, you will see: **Status: succeeded** along with log output.
 
 ![Execution function](/images/3.lambdafunctions/3.3-testupload/014-executionfunction.png)
 

@@ -67,12 +67,12 @@ pre: " <b> 4.1. </b> "
 
 ### Key Takeaways
 
-#### 🧠 Personal Development and Mindset
+#### Personal Development and Mindset
 * Procrastination is driven by fear (of failure, judgment, inadequacy) rather than laziness. Taking the first step is the most crucial part of overcoming it.
 * Confidence is a buildable skill cultivated through preparation, practice, and accumulating small successes.
 * Developing a proactive mindset: embrace challenges instead of waiting for perfection.
 
-#### ☁️ AWS and Cloud Knowledge
+#### ️ AWS and Cloud Knowledge
 * Learned an efficient AWS learning path using AWS Cloud Quest and Floci to practice risk-free without worrying about costs.
 * Utilizing local simulation environments to test architectures before deploying to production.
 * Understanding the three-stage Cloud learning process: foundational knowledge, local simulation, and AWS production deployment.
@@ -82,7 +82,7 @@ pre: " <b> 4.1. </b> "
 * The importance of automation, rapid feedback, effective communication, and continuous improvement throughout the SDLC.
 * Realizing that many project failures stem from organizational workflows and team communication rather than technical errors.
 
-#### 🏆 Hackathon Spirit
+#### Hackathon Spirit
 * Rapid prototyping from concept to demo under tight deadlines.
 * Working effectively in high-pressure team settings, dividing tasks, and iterating rapidly.
 * Leveraging AI tools as assistants for coding, design, and product development.

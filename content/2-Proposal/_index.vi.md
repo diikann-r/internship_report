@@ -47,7 +47,7 @@ Quy trình này có một số hạn chế:
 - Khó thống kê, đối chiếu và kiểm toán.
 - Khó tích hợp với hệ thống quản lý hoặc báo cáo dữ liệu.
 
-➡️ **Nhu cầu đặt ra** là xây dựng một hệ thống có thể tiếp nhận hóa đơn đa định dạng, tự động trích xuất nội dung, chuẩn hóa dữ liệu bằng AI, lưu trữ tập trung và hỗ trợ truy xuất nhanh.
+️ **Nhu cầu đặt ra** là xây dựng một hệ thống có thể tiếp nhận hóa đơn đa định dạng, tự động trích xuất nội dung, chuẩn hóa dữ liệu bằng AI, lưu trữ tập trung và hỗ trợ truy xuất nhanh.
 
 ### Những thách thức chính
 
