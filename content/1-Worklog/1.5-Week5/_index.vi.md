@@ -17,7 +17,7 @@ pre: " <b> 1.5. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 6 | - Làm quen EventBridge và API Gateway: event-driven architecture, REST API, routing, authorization trong mô hình serverless | 15/05/2026 | 15/05/2026 | |
+| 6 | - Làm quen EventBridge và API Gateway: event-driven architecture, REST API, routing, authorization trong mô hình serverless | 15/05/2026 | 15/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 7 | - **Thực hành:** AWS Cognito User Pool <br> - Tích hợp xác thực với API Gateway (JWT authorizer, OAuth 2.0) | 16/05/2026 | 16/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | CN | - Xây dựng serverless pipeline (phần 1): Lambda functions, S3 bucket, DynamoDB table, trigger và data flow | 17/05/2026 | 17/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 2 | - Xây dựng serverless pipeline (phần 2): kết nối API Gateway, Cognito, kiểm tra end-to-end workflow | 18/05/2026 | 18/05/2026 | <https://cloudjourney.awsstudygroup.com/> |

@@ -16,7 +16,7 @@ pre: " <b> 1.7. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 6 | - Đóng gói ứng dụng bằng Docker: viết Dockerfile, build Image, quản lý tag và push lên Amazon ECR | 29/05/2026 | 29/05/2026 | |
+| 6 | - Đóng gói ứng dụng bằng Docker: viết Dockerfile, build Image, quản lý tag và push lên Amazon ECR | 29/05/2026 | 29/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 7 | - Quản lý Docker Image trên AWS: ECR lifecycle policy, image scanning, versioning phục vụ triển khai | 30/05/2026 | 30/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | CN | - Triển khai container trên Amazon Lightsail Containers: cấu hình service, domain, kiểm tra hoạt động ứng dụng | 31/05/2026 | 31/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 2 | - Triển khai container trên Amazon EKS: deploy workload, cấu hình tài nguyên, kiểm tra scaling và availability | 01/06/2026 | 01/06/2026 | <https://cloudjourney.awsstudygroup.com/> |

@@ -16,7 +16,7 @@ pre: " <b> 1.2. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 6 | - Tìm hiểu và cấu hình chuyên sâu hệ thống mạng Amazon VPC: CIDR, VPC Peering, Flow Logs, Endpoints | 24/04/2026 | 24/04/2026 | |
+| 6 | - Tìm hiểu và cấu hình chuyên sâu hệ thống mạng Amazon VPC: CIDR, VPC Peering, Flow Logs, Endpoints | 24/04/2026 | 24/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 7 | - Thiết lập kết nối bảo mật thông qua AWS VPN Site-to-Site: Customer Gateway, Virtual Private Gateway, VPN Tunnel | 25/04/2026 | 25/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | CN | - Phân chia và cấu hình mạng con (Subnets): Public/Private Subnets, Availability Zones, CIDR block planning | 26/04/2026 | 26/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 2 | - Cấu hình định tuyến và điều phối lưu lượng: Route Tables, Internet Gateway, NAT Gateway | 27/04/2026 | 27/04/2026 | <https://cloudjourney.awsstudygroup.com/> |

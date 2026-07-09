@@ -17,7 +17,7 @@ pre: " <b> 1.6. </b> "
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| Fri | - Amazon EKS: create cluster, node groups, deploy containerized applications with kubectl | 22/05/2026 | 22/05/2026 | |
+| Fri | - Amazon EKS: create cluster, node groups, deploy containerized applications with kubectl | 22/05/2026 | 22/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Sat | - Advanced CI/CD using CodePipeline/CodeDeploy on EKS <br> - Build a basic Data Lake using S3, Glue, and Athena | 23/05/2026 | 23/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Sun | - Data analysis with Amazon QuickSight: connect data sources, create dashboards and visualizations | 24/05/2026 | 24/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Mon | - Introduction to Machine Learning with SageMaker: Notebook Instances, model training, and deploy inference endpoints | 25/05/2026 | 25/05/2026 | <https://cloudjourney.awsstudygroup.com/> |

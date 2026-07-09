@@ -17,7 +17,7 @@ pre: " <b> 1.5. </b> "
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| Fri | - Get acquainted with EventBridge and API Gateway: event-driven architecture, REST API, routing, authorization in the serverless model | 15/05/2026 | 15/05/2026 | |
+| Fri | - Get acquainted with EventBridge and API Gateway: event-driven architecture, REST API, routing, authorization in the serverless model | 15/05/2026 | 15/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Sat | - **Practice:** AWS Cognito User Pools <br> - Integrate authentication with API Gateway (JWT authorizer, OAuth 2.0) | 16/05/2026 | 16/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Sun | - Build serverless pipeline (Part 1): Lambda functions, S3 bucket, DynamoDB table, trigger, and data flow | 17/05/2026 | 17/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Mon | - Build serverless pipeline (Part 2): connect API Gateway, Cognito, test end-to-end workflow | 18/05/2026 | 18/05/2026 | <https://cloudjourney.awsstudygroup.com/> |

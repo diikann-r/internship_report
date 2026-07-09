@@ -17,7 +17,7 @@ pre: " <b> 1.9. </b> "
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| Fri | - Translate and standardize professional blogs: AWS Carbon Reporting, BYOL, Sustainability | 12/06/2026 | 12/06/2026 | |
+| Fri | - Translate and standardize professional blogs: AWS Carbon Reporting, BYOL, Sustainability | 12/06/2026 | 12/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Sat | - Write and finalize the Project Proposal: problem statement, scope, timeline, and required AWS resources | 13/06/2026 | 13/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Sun | - Test the completed AI Invoice Scanner project: upload invoices, extract data, verify AI results | 14/06/2026 | 14/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Mon | - Design the architecture diagram on Draw.io: S3, Textract, Lambda, Bedrock, DynamoDB, IAM | 15/06/2026 | 15/06/2026 | <https://cloudjourney.awsstudygroup.com/> |

@@ -14,7 +14,7 @@ pre: " <b> 1.4. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 6 | - Tìm hiểu AWS Reachability Analyzer: khái niệm, use cases, cách phân tích path kết nối giữa các resource trong VPC | 08/05/2026 | 08/05/2026 | |
+| 6 | - Tìm hiểu AWS Reachability Analyzer: khái niệm, use cases, cách phân tích path kết nối giữa các resource trong VPC | 08/05/2026 | 08/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 7 | - **Thực hành:** sử dụng Reachability Analyzer kiểm tra connectivity giữa EC2, Subnets, Security Groups <br> - Xác định và sửa lỗi mạng | 09/05/2026 | 09/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | CN | - Cấu hình EC2 Instance Connect Endpoint: tạo Endpoint trong VPC, Security Group, routing | 10/05/2026 | 10/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 2 | - Thiết lập AWS Systems Manager Session Manager: IAM role, SSM Agent, Instance profile cho EC2 | 11/05/2026 | 11/05/2026 | <https://cloudjourney.awsstudygroup.com/> |

@@ -16,7 +16,7 @@ pre: " <b> 1.7. </b> "
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| Fri | - Containerize application with Docker: write Dockerfile, build Image, manage tags, and push to Amazon ECR | 29/05/2026 | 29/05/2026 | |
+| Fri | - Containerize application with Docker: write Dockerfile, build Image, manage tags, and push to Amazon ECR | 29/05/2026 | 29/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Sat | - Manage Docker Images on AWS: ECR lifecycle policy, image scanning, versioning for deployment | 30/05/2026 | 30/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Sun | - Deploy containers on Amazon Lightsail Containers: configure service, domain, and verify application operation | 31/05/2026 | 31/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Mon | - Deploy containers on Amazon EKS: deploy workload, configure resources, and test scaling and availability | 01/06/2026 | 01/06/2026 | <https://cloudjourney.awsstudygroup.com/> |

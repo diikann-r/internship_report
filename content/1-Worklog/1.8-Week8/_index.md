@@ -17,7 +17,7 @@ pre: " <b> 1.8. </b> "
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| Fri | - Learn Amazon Bedrock: foundation models, prompt engineering, and RAG mechanism | 05/06/2026 | 05/06/2026 | |
+| Fri | - Learn Amazon Bedrock: foundation models, prompt engineering, and RAG mechanism | 05/06/2026 | 05/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Sat | - Translate advanced technical blogs on AI/ML and AWS <br> - Consolidate knowledge as reference materials for the project | 06/06/2026 | 06/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Sun | - Analyze final project problems and propose project architecture: Bedrock, Textract, Lambda, S3, DynamoDB | 07/06/2026 | 07/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Mon | - **Practice:** Amazon Textract + S3 — upload documents, extract text/tables, and save outputs to S3 | 08/06/2026 | 08/06/2026 | <https://cloudjourney.awsstudygroup.com/> |

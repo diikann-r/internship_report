@@ -17,7 +17,7 @@ pre: " <b> 1.1. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 6 | - Đăng ký tài khoản AWS, xác thực email <br> - Cấu hình thanh toán <br> - Bật MFA cho root account | 17/04/2026 | 17/04/2026 | |
+| 6 | - Đăng ký tài khoản AWS, xác thực email <br> - Cấu hình thanh toán <br> - Bật MFA cho root account | 17/04/2026 | 17/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 7 | - Tìm hiểu Billing & Cost Explorer <br> - Thiết lập Budget Alerts <br> - Kiểm tra Free Tier | 18/04/2026 | 18/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | CN | - Nghiên cứu AWS Support Plans <br> - Mở Support ticket thử nghiệm <br> - Tham khảo AWS Documentation | 19/04/2026 | 19/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 2 | - Cấu hình IAM: tạo Users/Groups, gán Policies <br> - Tạo Role cho EC2 <br> - Thiết lập Password policy | 20/04/2026 | 20/04/2026 | <https://cloudjourney.awsstudygroup.com/> |

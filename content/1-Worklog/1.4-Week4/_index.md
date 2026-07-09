@@ -14,7 +14,7 @@ pre: " <b> 1.4. </b> "
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| Fri | - Learn AWS Reachability Analyzer: concepts, use cases, analyzing connection paths between resources in VPC | 08/05/2026 | 08/05/2026 | |
+| Fri | - Learn AWS Reachability Analyzer: concepts, use cases, analyzing connection paths between resources in VPC | 08/05/2026 | 08/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Sat | - **Practice:** use Reachability Analyzer to verify connectivity between EC2, Subnets, and Security Groups <br> - Identify and resolve network errors | 09/05/2026 | 09/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Sun | - Configure EC2 Instance Connect Endpoint: create Endpoint in VPC, Security Group, routing | 10/05/2026 | 10/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Mon | - Configure AWS Systems Manager Session Manager: IAM role, SSM Agent, Instance profile for EC2 | 11/05/2026 | 11/05/2026 | <https://cloudjourney.awsstudygroup.com/> |

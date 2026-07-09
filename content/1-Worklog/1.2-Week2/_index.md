@@ -16,7 +16,7 @@ pre: " <b> 1.2. </b> "
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| Fri | - Learn and configure Amazon VPC in-depth: CIDR, VPC Peering, Flow Logs, Endpoints | 24/04/2026 | 24/04/2026 | |
+| Fri | - Learn and configure Amazon VPC in-depth: CIDR, VPC Peering, Flow Logs, Endpoints | 24/04/2026 | 24/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Sat | - Establish secure connection via AWS VPN Site-to-Site: Customer Gateway, Virtual Private Gateway, VPN Tunnel | 25/04/2026 | 25/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Sun | - Partition and configure subnets: Public/Private Subnets, Availability Zones, CIDR block planning | 26/04/2026 | 26/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Mon | - Configure routing and traffic management: Route Tables, Internet Gateway, NAT Gateway | 27/04/2026 | 27/04/2026 | <https://cloudjourney.awsstudygroup.com/> |

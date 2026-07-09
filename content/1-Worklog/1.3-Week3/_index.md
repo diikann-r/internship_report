@@ -15,7 +15,7 @@ pre: " <b> 1.3. </b> "
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| Fri | - Learn Amazon EC2 and select appropriate Instance Types: General Purpose, Compute Optimized, Memory Optimized, Free Tier | 01/05/2026 | 01/05/2026 | |
+| Fri | - Learn Amazon EC2 and select appropriate Instance Types: General Purpose, Compute Optimized, Memory Optimized, Free Tier | 01/05/2026 | 01/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Sat | - Manage AMIs: create custom AMIs, copy AMIs between Regions, snapshot from EC2 instances | 02/05/2026 | 02/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Sun | - Key Pair: create, store securely, and use SSH keys to authenticate EC2 connections | 03/05/2026 | 03/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Mon | - Elastic Block Store (EBS): volume types (gp3, io2), create volumes, attach/detach volumes to EC2 | 04/05/2026 | 04/05/2026 | <https://cloudjourney.awsstudygroup.com/> |

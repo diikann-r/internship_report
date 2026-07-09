@@ -17,7 +17,7 @@ pre: " <b> 1.9. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 6 | - Dịch và chuẩn hóa blog chuyên môn: AWS Carbon Reporting, BYOL, Sustainability | 12/06/2026 | 12/06/2026 | |
+| 6 | - Dịch và chuẩn hóa blog chuyên môn: AWS Carbon Reporting, BYOL, Sustainability | 12/06/2026 | 12/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 7 | - Viết và hoàn thành Project Proposal: mô tả bài toán, phạm vi, timeline, tài nguyên AWS cần thiết | 13/06/2026 | 13/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | CN | - Kiểm thử project AI Invoice Scanner hoàn chỉnh: upload hóa đơn, trích xuất dữ liệu, xác minh kết quả AI | 14/06/2026 | 14/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 2 | - Thiết kế sơ đồ kiến trúc trên Draw.io: S3, Textract, Lambda, Bedrock, DynamoDB, IAM | 15/06/2026 | 15/06/2026 | <https://cloudjourney.awsstudygroup.com/> |

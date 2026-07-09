@@ -18,7 +18,7 @@ pre: " <b> 1.1. </b> "
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| Fri | - Register AWS account, verify email <br> - Configure billing <br> - Enable MFA for root account | 17/04/2026 | 17/04/2026 | |
+| Fri | - Register AWS account, verify email <br> - Configure billing <br> - Enable MFA for root account | 17/04/2026 | 17/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Sat | - Learn Billing & Cost Explorer <br> - Set up Budget Alerts <br> - Check Free Tier | 18/04/2026 | 18/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Sun | - Research AWS Support Plans <br> - Open a test Support ticket <br> - Refer to AWS Documentation | 19/04/2026 | 19/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Mon | - Configure IAM: create Users/Groups, assign Policies <br> - Create Role for EC2 <br> - Set up Password policy | 20/04/2026 | 20/04/2026 | <https://cloudjourney.awsstudygroup.com/> |

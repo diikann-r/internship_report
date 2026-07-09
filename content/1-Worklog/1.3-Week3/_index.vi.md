@@ -15,7 +15,7 @@ pre: " <b> 1.3. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 6 | - Tìm hiểu Amazon EC2 và lựa chọn Instance Type phù hợp: General Purpose, Compute Optimized, Memory Optimized, Free Tier | 01/05/2026 | 01/05/2026 | |
+| 6 | - Tìm hiểu Amazon EC2 và lựa chọn Instance Type phù hợp: General Purpose, Compute Optimized, Memory Optimized, Free Tier | 01/05/2026 | 01/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 7 | - Quản lý AMI: tạo custom AMI, copy AMI giữa các Region, snapshot từ EC2 instance | 02/05/2026 | 02/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | CN | - Key Pair: tạo, lưu trữ an toàn, sử dụng SSH key để xác thực kết nối EC2 | 03/05/2026 | 03/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 2 | - Elastic Block Store (EBS): volume types (gp3, io2), tạo volume, gắn/gỡ volume vào EC2 | 04/05/2026 | 04/05/2026 | <https://cloudjourney.awsstudygroup.com/> |

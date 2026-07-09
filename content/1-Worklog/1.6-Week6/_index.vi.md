@@ -17,7 +17,7 @@ pre: " <b> 1.6. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 6 | - Amazon EKS: tạo cluster, node groups, deploy ứng dụng container với kubectl | 22/05/2026 | 22/05/2026 | |
+| 6 | - Amazon EKS: tạo cluster, node groups, deploy ứng dụng container với kubectl | 22/05/2026 | 22/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 7 | - CI/CD nâng cao với CodePipeline/CodeDeploy trên EKS <br> - Xây dựng Data Lake cơ bản với S3, Glue, Athena | 23/05/2026 | 23/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | CN | - Phân tích dữ liệu với Amazon QuickSight: kết nối nguồn dữ liệu, tạo dashboard và visualization | 24/05/2026 | 24/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 2 | - Nhập môn ML với SageMaker: Notebook Instance, training model, deploy endpoint inference | 25/05/2026 | 25/05/2026 | <https://cloudjourney.awsstudygroup.com/> |

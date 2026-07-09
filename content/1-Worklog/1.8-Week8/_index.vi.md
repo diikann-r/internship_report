@@ -17,7 +17,7 @@ pre: " <b> 1.8. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 6 | - Tìm hiểu Amazon Bedrock: foundation models, prompt engineering, cơ chế RAG (Retrieval-Augmented Generation) | 05/06/2026 | 05/06/2026 | |
+| 6 | - Tìm hiểu Amazon Bedrock: foundation models, prompt engineering, cơ chế RAG (Retrieval-Augmented Generation) | 05/06/2026 | 05/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 7 | - Dịch blog kỹ thuật nâng cao về AI/ML và AWS <br> - Tổng hợp kiến thức làm tài liệu tham khảo cho project | 06/06/2026 | 06/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | CN | - Phân tích bài toán cuối khóa, đề xuất kiến trúc project: Bedrock, Textract, Lambda, S3, DynamoDB | 07/06/2026 | 07/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 2 | - **Thực hành:** Amazon Textract + S3 — upload document, trích xuất text/table, lưu kết quả vào S3 | 08/06/2026 | 08/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
