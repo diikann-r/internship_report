@@ -49,7 +49,7 @@ Unchecking this option allows the user to avoid being prompted to change the pas
 
 ![IAM User](/images/2.environmentsetup/2.2-createiamuserandattachpolicy/005-createiamuser.png)
 
-> 💡 _You can choose a different password according to your internal security policy._
+>  _You can choose a different password according to your internal security policy._
 
 ---
 
@@ -135,11 +135,11 @@ Unchecking this option allows the user to avoid being prompted to change the pas
 
 1. Once the access key is successfully created, AWS will display:
 
-    - **Access Key ID** ✅
-    - **Secret Access Key** 🔐
+    - **Access Key ID** ✓
+    - **Secret Access Key** 
 
 {{% notice warning %}}
-⚠️ **Note**: This is the only time you will see the **Secret Access Key**. Store it securely and never share it on GitHub or any public platform.
+ **Note**: This is the only time you will see the **Secret Access Key**. Store it securely and never share it on GitHub or any public platform.
 {{% /notice %}}
 
 2. Click **Download .csv file** and save the file on your computer for future use.
@@ -159,7 +159,7 @@ Unchecking this option allows the user to avoid being prompted to change the pas
 
 ![Access Key](/images/2.environmentsetup/2.2-createiamuserandattachpolicy/023-checkaccesskey.png)
 
-> 💡 **Note**: Make sure you saved the **Secret Access Key** from the previous step. If not, you’ll need to delete and recreate a new access key.
+>  **Note**: Make sure you saved the **Secret Access Key** from the previous step. If not, you’ll need to delete and recreate a new access key.
 >
 > -   You may **deactivate** or **delete** this key when no longer needed.
 > -   Never **commit Access Keys to GitHub** or share them publicly.

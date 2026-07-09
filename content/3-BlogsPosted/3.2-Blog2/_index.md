@@ -32,13 +32,13 @@ This mechanism is highly significant because it enforces security controls right
 
 Historically, organizations enforced access controls primarily using IAM policies, SCPs, or individual network controls. With **sign-in resource-based policies** and **Resource Control Policies (RCPs)**, organizations can block unauthorized Console login attempts right at the entrance. This is particularly valuable for highly regulated industries such as finance, banking, insurance, healthcare, and government.
 
-### 🛡️ Two Key Mechanisms from AWS:
+### Two Key Mechanisms from AWS:
 1. **Sign-in Resource-Based Policies**: Applied directly to a specific AWS account.
 2. **Resource Control Policies (RCPs)**: Applied at the AWS Organizations or OU level to scale consistent controls across multi-account environments.
 
 ---
 
-## ❗ 2. Real-World Challenges for Enterprises
+## 2. Real-World Challenges for Enterprises
 
 Enterprises frequently face the following security risks:
 
@@ -50,7 +50,7 @@ Enterprises frequently face the following security risks:
 
 ---
 
-## 💡 3. AWS Security Solutions
+## 3. AWS Security Solutions
 
 AWS proposes an integrated set of solutions to address these challenges:
 
@@ -60,13 +60,13 @@ Administrators configure a policy to **Deny** logins if the request does not ori
 * Approved VPC IDs and corresponding Regions.
 * Excluded principals to avoid accidental lockouts.
 
-### 🔑 Excluded Principal (Break-glass Account)
+### Excluded Principal (Break-glass Account)
 Designating a specific backup administrator role or account that is allowed to log in from any network for emergency situations, avoiding the risk of absolute lockout.
 
-### ⚙️ Console Authorization Configuration
+### Console Authorization Configuration
 After creating and reviewing the policy (while it is not yet active), administrators enable enforcement using the `put-console-authorization-configuration` command.
 
-### 📊 Auditing with AWS CloudTrail
+### Auditing with AWS CloudTrail
 All login history is recorded in detail:
 * **Valid**: A `ConsoleLogin` event is logged as `Success`.
 * **Invalid**: A `ConsoleLogin` event is logged as `Failure` with an `AccessDenied` error.

@@ -18,7 +18,7 @@ Trong bước này, bạn sẽ tạo một **S3 bucket** để lưu trữ các t
 ![S3 Console](/images/2.environmentsetup/2.4-creates3bucket/001-opens3console.png)
 
 {{% notice info %}}
-💡 **Lưu ý:** Trước khi tạo, hãy đảm bảo bạn đã chọn đúng region là **ap-southeast-1** ở góc trên bên phải màn hình AWS Console.  
+ **Lưu ý:** Trước khi tạo, hãy đảm bảo bạn đã chọn đúng region là **ap-southeast-1** ở góc trên bên phải màn hình AWS Console.  
 Việc tạo S3 bucket ở đúng region là rất quan trọng để các dịch vụ như Lambda hoặc Textract hoạt động đồng bộ.
 {{% /notice %}}
 
@@ -35,7 +35,7 @@ Việc tạo S3 bucket ở đúng region là rất quan trọng để các dịc
 ![Configure Bucket](/images/2.environmentsetup/2.4-creates3bucket/003-bucketname-region.png)
 
 {{% notice info %}}
-💡 **Lưu ý:** Tên bucket phải duy nhất trên toàn cầu. Bạn có thể thêm hậu tố nếu tên bị trùng, ví dụ: **invoice-upload-s3-bucket-113**.
+ **Lưu ý:** Tên bucket phải duy nhất trên toàn cầu. Bạn có thể thêm hậu tố nếu tên bị trùng, ví dụ: **invoice-upload-s3-bucket-113**.
 {{% /notice %}}
 
 2. Trong phần **Object Ownership**, chọn **ACLs disabled**.

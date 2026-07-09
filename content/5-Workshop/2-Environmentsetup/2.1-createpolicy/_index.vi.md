@@ -9,8 +9,8 @@ pre: " <b> 5.2.1</b> "
 
 Trong bước này, bạn sẽ tạo 2 IAM Policy cần thiết cho hệ thống:
 
--   **AIInvoiceScannerFullPolicy**: cấp quyền đầy đủ cho các dịch vụ backend như Textract, Bedrock, Lambda, DynamoDB, API Gateway, Cognito và CloudWatch.
--   **AmplifyAdminPolicy**: cấp quyền toàn phần cho việc triển khai frontend sử dụng AWS Amplify.
+-  **AIInvoiceScannerFullPolicy**: cấp quyền đầy đủ cho các dịch vụ backend như Textract, Bedrock, Lambda, DynamoDB, API Gateway, Cognito và CloudWatch.
+-  **AmplifyAdminPolicy**: cấp quyền toàn phần cho việc triển khai frontend sử dụng AWS Amplify.
 
 ---
 

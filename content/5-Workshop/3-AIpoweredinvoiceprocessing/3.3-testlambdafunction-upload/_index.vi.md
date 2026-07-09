@@ -15,7 +15,7 @@ Trong bước này, bạn sẽ thực hiện kiểm thử Lambda Function **Uplo
 
 Trước khi thực hiện kiểm thử Lambda Function, bạn cần chuẩn bị tệp hóa đơn mẫu để tải lên. Vui lòng tải tệp sau về máy của bạn:
 
--   [Tải file mẫu demo_invoice.png](https://drive.google.com/file/d/1EcicofEM9axww3cfS1TMa0cX37S0otDx/view?usp=drive_link)
+-  [Tải file mẫu demo_invoice.png](https://drive.google.com/file/d/1EcicofEM9axww3cfS1TMa0cX37S0otDx/view?usp=drive_link)
 
 {{% notice info %}}
 🔧 **Ghi chú**: Nếu bạn sử dụng tệp hóa đơn khác, hãy đổi tên thành **demo_invoice.png** trước khi tải lên thư mục **uploads/** trong S3.
@@ -114,7 +114,7 @@ Trước khi thực hiện kiểm thử Lambda Function, bạn cần chuẩn b�
 
 2.  Quan sát phần **Execution results** được hiển thị sau khi chạy:
 
-    -   Nếu chạy thành công, bạn sẽ thấy dòng: **Status: succeeded** cùng với log output hiển thị nội dung xử lý.
+    -  Nếu chạy thành công, bạn sẽ thấy dòng: **Status: succeeded** cùng với log output hiển thị nội dung xử lý.
 
 ![Execution function](/images/3.lambdafunctions/3.3-testupload/014-executionfunction.png)
 
@@ -157,5 +157,5 @@ Trước khi thực hiện kiểm thử Lambda Function, bạn cần chuẩn b�
 ![Explore table items](/images/3.lambdafunctions/3.3-testupload/022-exploretableitems.png)
 
 {{% notice warning %}}
-⚠️ **Lưu ý**: Đảm bảo tất cả tài nguyên (Lambda, S3, DynamoDB, Textract và Bedrock) đều được tạo trong cùng một Region: **Singapore (ap-southeast-1)** để đảm bảo hệ thống hoạt động đồng bộ.
+ **Lưu ý**: Đảm bảo tất cả tài nguyên (Lambda, S3, DynamoDB, Textract và Bedrock) đều được tạo trong cùng một Region: **Singapore (ap-southeast-1)** để đảm bảo hệ thống hoạt động đồng bộ.
 {{% /notice %}}

@@ -32,13 +32,13 @@ Cơ chế này đặc biệt quan trọng vì nó đưa kiểm soát bảo mật
 
 Trước đây, các tổ chức kiểm soát quyền chủ yếu bằng IAM Policy, SCP hoặc network controls riêng lẻ. Với **Sign-in resource-based policies** và **RCPs**, doanh nghiệp có thể chặn đứng hành vi đăng nhập trái phép vào Console từ mạng không mong muốn ngay từ "cửa ngõ" đầu tiên. Điều này mang lại giá trị to lớn cho các ngành có yêu cầu tuân thủ khắt khe như tài chính, ngân hàng, bảo hiểm, y tế, hay chính phủ.
 
-### 🛡️ Hai cơ chế chính từ AWS:
+### Hai cơ chế chính từ AWS:
 1. **Sign-in Resource-Based Policies**: Áp dụng trực tiếp cho một tài khoản AWS cụ thể.
 2. **Resource Control Policies (RCPs)**: Áp dụng ở cấp AWS Organizations (hoặc OU) để mở rộng khả năng kiểm soát nhất quán trên toàn bộ hệ thống đa tài khoản (multi-account).
 
 ---
 
-## ❗ 2. Vấn đề thực tế của doanh nghiệp
+## 2. Vấn đề thực tế của doanh nghiệp
 
 Các doanh nghiệp thường đối mặt với các rủi ro bảo mật nghiêm trọng sau:
 
@@ -50,7 +50,7 @@ Các doanh nghiệp thường đối mặt với các rủi ro bảo mật nghi�
 
 ---
 
-## 💡 3. Giải pháp toàn diện từ AWS
+## 3. Giải pháp toàn diện từ AWS
 
 AWS đề xuất một bộ giải pháp tích hợp để giải quyết các vấn đề trên:
 
@@ -60,13 +60,13 @@ Quản trị viên cấu hình chính sách phủ quyết (**Deny**) đăng nh�
 * VPC ID được phép và Region tương ứng.
 * Đối tượng ngoại lệ (Excluded Principal) để tránh bị lockout.
 
-### 🔑 Cơ chế Excluded Principal (Break-glass account)
+### Cơ chế Excluded Principal (Break-glass account)
 Chỉ định cụ thể một tài khoản hoặc vai trò quản trị dự phòng được phép đăng nhập từ mọi mạng (không bị giới hạn IP) để xử lý các sự cố khẩn cấp và tránh rủi ro mất quyền truy cập tài khoản.
 
-### ⚙️ Console Authorization Configuration
+### Console Authorization Configuration
 Sau khi khởi tạo và kiểm tra nội dung Policy (khi policy chưa có hiệu lực), quản trị viên kích hoạt tính năng thực thi (**Enforcement**) bằng lệnh `put-console-authorization-configuration`.
 
-### 📊 Giám sát qua AWS CloudTrail
+### Giám sát qua AWS CloudTrail
 Toàn bộ lịch sử đăng nhập sẽ được ghi lại chi tiết:
 * **Hợp lệ**: Ghi nhận sự kiện `ConsoleLogin` với trạng thái `Success`.
 * **Không hợp lệ**: Ghi nhận sự kiện `ConsoleLogin` với trạng thái `Failure` và mã lỗi `AccessDenied`.

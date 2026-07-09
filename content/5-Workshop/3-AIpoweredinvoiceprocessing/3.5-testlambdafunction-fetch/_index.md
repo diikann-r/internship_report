@@ -10,7 +10,7 @@ pre: " <b> 5.3.5</b> "
 In this step, you will test the **FetchInvoiceDetailsFunction** Lambda Function. This function is responsible for reading and updating invoice information from DynamoDB through API endpoints such as GET or PATCH. Testing will help verify that the Lambda function works correctly when receiving input from API Gateway.
 
 {{% notice warning %}}
-⚠️ Make sure you already have at least one invoice file in your S3 Bucket and a corresponding record in the **InvoiceData** DynamoDB table before starting the test.
+ Make sure you already have at least one invoice file in your S3 Bucket and a corresponding record in the **InvoiceData** DynamoDB table before starting the test.
 {{% /notice %}}
 
 ---
@@ -46,7 +46,7 @@ In this step, you will test the **FetchInvoiceDetailsFunction** Lambda Function.
     }
     ```
 
-> 📌 Replace the `"id"` value with a valid **InvoiceId** that exists in the **InvoiceData** DynamoDB table.
+>  Replace the `"id"` value with a valid **InvoiceId** that exists in the **InvoiceData** DynamoDB table.
 
 ![JSON](/images/3.lambdafunctions/3.5-testfetch/005-pastejson.png)
 

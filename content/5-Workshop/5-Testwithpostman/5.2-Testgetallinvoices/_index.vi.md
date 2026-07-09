@@ -7,7 +7,7 @@ pre: " <b> 5.5.2</b> "
 
 #### Yêu cầu chuẩn bị
 
-> ⚠️ Vừa rồi chỉ hướng dẫn tải một tệp "demo_invoice.png". Bạn hãy **tải thêm 2 tệp hóa đơn** còn lại nữa nhé!
+>  Vừa rồi chỉ hướng dẫn tải một tệp "demo_invoice.png". Bạn hãy **tải thêm 2 tệp hóa đơn** còn lại nữa nhé!
 
 ---
 
@@ -65,4 +65,4 @@ pre: " <b> 5.5.2</b> "
 
 ![Test get all invoices](/images/5/5.2/012.png)
 
-> Kiểm tra nếu đủ 3 hóa đơn tức là thành công ✅
+> Kiểm tra nếu đủ 3 hóa đơn tức là thành công ✓

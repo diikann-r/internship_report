@@ -9,8 +9,8 @@ pre: " <b> 5.2.1</b> "
 
 In this step, you will create 2 essential IAM Policies for the system:
 
--   **AIInvoiceScannerFullPolicy**: grants full permissions to backend services such as Textract, Bedrock, Lambda, DynamoDB, API Gateway, Cognito, and CloudWatch.
--   **AmplifyAdminPolicy**: grants full access for frontend deployment using AWS Amplify.
+-  **AIInvoiceScannerFullPolicy**: grants full permissions to backend services such as Textract, Bedrock, Lambda, DynamoDB, API Gateway, Cognito, and CloudWatch.
+-  **AmplifyAdminPolicy**: grants full access for frontend deployment using AWS Amplify.
 
 ---
 

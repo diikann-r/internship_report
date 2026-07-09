@@ -7,7 +7,7 @@ pre: " <b> 5.5.2</b> "
 
 #### Prerequisites
 
-> ⚠️ Previously we only demonstrated uploading "demo_invoice.png". Please **upload the remaining 2 invoice files** as well!
+>  Previously we only demonstrated uploading "demo_invoice.png". Please **upload the remaining 2 invoice files** as well!
 
 ---
 
@@ -65,4 +65,4 @@ pre: " <b> 5.5.2</b> "
 
 ![Test get all invoices](/images/5/5.2/012.png)
 
-> Verify that all 3 invoices are returned to confirm success ✅
+> Verify that all 3 invoices are returned to confirm success ✓

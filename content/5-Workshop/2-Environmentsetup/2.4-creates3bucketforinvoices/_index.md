@@ -18,7 +18,7 @@ In this step, you will create an **S3 bucket** to store invoice files uploaded b
 ![S3 Console](/images/2.environmentsetup/2.4-creates3bucket/001-opens3console.png)
 
 {{% notice info %}}
-💡 **Note:** Before creating the bucket, make sure you have selected the correct region **ap-southeast-1** in the upper right corner of the AWS Console screen.  
+ **Note:** Before creating the bucket, make sure you have selected the correct region **ap-southeast-1** in the upper right corner of the AWS Console screen.  
 Creating the S3 bucket in the correct region is crucial for services like Lambda or Textract to work seamlessly.
 {{% /notice %}}
 
@@ -35,7 +35,7 @@ Creating the S3 bucket in the correct region is crucial for services like Lambda
 ![Configure Bucket](/images/2.environmentsetup/2.4-creates3bucket/003-bucketname-region.png)
 
 {{% notice info %}}
-💡 **Note:** Bucket names must be globally unique. You may add a suffix if the name is already taken, e.g., **invoice-upload-s3-bucket-113**.
+ **Note:** Bucket names must be globally unique. You may add a suffix if the name is already taken, e.g., **invoice-upload-s3-bucket-113**.
 {{% /notice %}}
 
 2. In the **Object Ownership** section, select **ACLs disabled**.

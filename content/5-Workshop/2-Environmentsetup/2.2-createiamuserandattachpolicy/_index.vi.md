@@ -49,7 +49,7 @@ Việc bỏ chọn tùy chọn này giúp người dùng không bị yêu cầu 
 
 ![IAM User](/images/2.environmentsetup/2.2-createiamuserandattachpolicy/005-createiamuser.png)
 
-> 💡 _Bạn có thể chọn mật khẩu khác theo chính sách bảo mật nội bộ._
+>  _Bạn có thể chọn mật khẩu khác theo chính sách bảo mật nội bộ._
 
 ---
 
@@ -135,11 +135,11 @@ Việc bỏ chọn tùy chọn này giúp người dùng không bị yêu cầu 
 
 1. Sau khi Access Key được tạo thành công, AWS sẽ cung cấp:
 
-    - **Access Key ID** ✅
-    - **Secret Access Key** 🔐
+    - **Access Key ID** ✓
+    - **Secret Access Key** 
 
 {{% notice warning %}}
-⚠️ **Lưu ý**: Đây là lần duy nhất bạn thấy được **Secret Access Key**. Hãy lưu trữ cẩn thận và tuyệt đối không chia sẻ thông tin này trên GitHub hay bất kỳ nơi công khai nào.
+ **Lưu ý**: Đây là lần duy nhất bạn thấy được **Secret Access Key**. Hãy lưu trữ cẩn thận và tuyệt đối không chia sẻ thông tin này trên GitHub hay bất kỳ nơi công khai nào.
 {{% /notice %}}
 
 2. Nhấn **Download .csv file** và lưu tệp vào máy tính để sử dụng sau.
@@ -159,7 +159,7 @@ Việc bỏ chọn tùy chọn này giúp người dùng không bị yêu cầu 
 
 ![Access Key](/images/2.environmentsetup/2.2-createiamuserandattachpolicy/023-checkaccesskey.png)
 
-> 💡 **Lưu ý**: Hãy đảm bảo bạn đã lưu **Secret Access Key** từ bước trước. Nếu chưa lưu, bạn cần xóa và tạo lại Access Key mới.
+>  **Lưu ý**: Hãy đảm bảo bạn đã lưu **Secret Access Key** từ bước trước. Nếu chưa lưu, bạn cần xóa và tạo lại Access Key mới.
 >
 > -   Có thể **deactivate** hoặc **xóa** key này nếu không còn sử dụng.
 > -   Tuyệt đối **không commit Access Key vào GitHub** hoặc chia sẻ công khai.

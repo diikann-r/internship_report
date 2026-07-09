@@ -77,7 +77,7 @@ pre: " <b> 4.1. </b> "
 * Biết cách tận dụng môi trường mô phỏng AWS để kiểm thử nhanh kiến trúc trước khi triển khai lên hệ thống thực tế.
 * Nắm vững quy trình học Cloud theo 3 giai đoạn: xây dựng kiến thức nền, thực hành trên môi trường mô phỏng và triển khai lên AWS Production.
 
-#### 🛠️ DevOps và phát triển phần mềm
+#### DevOps và phát triển phần mềm
 * DevOps là sự kết hợp giữa con người, quy trình và công nghệ để mang lại giá trị nhanh chóng, chứ không chỉ gói gọn trong các công cụ như Docker hay CI/CD.
 * Tầm quan trọng của tự động hóa, phản hồi nhanh, giao tiếp hiệu quả và cải tiến liên tục trong suốt vòng đời phát triển phần mềm.
 * Nhận ra nhiều vấn đề của dự án không nằm ở lỗi kỹ thuật mà xuất phát từ quy trình làm việc và sự phối hợp giữa các thành viên.

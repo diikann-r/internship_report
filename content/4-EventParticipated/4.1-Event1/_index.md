@@ -77,7 +77,7 @@ pre: " <b> 4.1. </b> "
 * Utilizing local simulation environments to test architectures before deploying to production.
 * Understanding the three-stage Cloud learning process: foundational knowledge, local simulation, and AWS production deployment.
 
-#### 🛠️ DevOps and Software Development
+#### DevOps and Software Development
 * DevOps represents the convergence of people, process, and technology, rather than just CI/CD tools.
 * The importance of automation, rapid feedback, effective communication, and continuous improvement throughout the SDLC.
 * Realizing that many project failures stem from organizational workflows and team communication rather than technical errors.

@@ -453,7 +453,7 @@ def lambda_handler(event, context):
                     KeyConditionExpression=Key("CustomerName").eq(name)
                 )
             except Exception as e:
-                print(f"⚠️ Query {CUSTOMER_NAME_INDEX_NAME} failed:", str(e))
+                print(f" Query {CUSTOMER_NAME_INDEX_NAME} failed:", str(e))
                 items = []
 
             # Cách 2: Nếu GSI không có kết quả, fallback sang scan
@@ -514,9 +514,9 @@ def lambda_handler(event, context):
 
 2.  Cấu hình thông tin như sau:
 
-    -   **Description**: `Retrieves invoice data from DynamoDB based on invoice ID via API Gateway request`
-    -   **Memory (MB)**: 128
-    -   **Timeout**: 3 seconds
+    -  **Description**: `Retrieves invoice data from DynamoDB based on invoice ID via API Gateway request`
+    -  **Memory (MB)**: 128
+    -  **Timeout**: 3 seconds
 
 ![Set Memory and Timeout](/images/3.lambdafunctions/3.4-fetchinvoicelambda/008-settimeout.png)
 

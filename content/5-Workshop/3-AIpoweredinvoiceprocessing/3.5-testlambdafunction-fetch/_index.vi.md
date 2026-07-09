@@ -10,7 +10,7 @@ pre: " <b> 5.3.5</b> "
 Trong bước này, bạn sẽ thực hiện kiểm thử Lambda Function **FetchInvoiceDetailsFunction**. Function này có nhiệm vụ đọc và cập nhật thông tin hóa đơn từ DynamoDB thông qua các API endpoint như GET hoặc PATCH. Kiểm thử sẽ giúp xác minh rằng Lambda hoạt động đúng khi nhận được input từ API Gateway.
 
 {{% notice warning %}}
-⚠️ Đảm bảo bạn đã có ít nhất một file hóa đơn trong S3 Bucket và bản ghi tương ứng trong bảng DynamoDB **InvoiceData** trước khi bắt đầu kiểm thử.
+ Đảm bảo bạn đã có ít nhất một file hóa đơn trong S3 Bucket và bản ghi tương ứng trong bảng DynamoDB **InvoiceData** trước khi bắt đầu kiểm thử.
 {{% /notice %}}
 
 #### Bước 1: Tạo Test Event cho truy xuất dữ liệu
@@ -27,8 +27,8 @@ Trong bước này, bạn sẽ thực hiện kiểm thử Lambda Function **Fetc
 
 4.  Kéo xuống đến phần **Test event** và cấu hình như sau:
 
-    -   **Event name**: `TestGetInvoice`
-    -   **Template**: Hello World
+    -  **Event name**: `TestGetInvoice`
+    -  **Template**: Hello World
 
 ![Test event](/images/3.lambdafunctions/3.5-testfetch/004-createevent.png)
 
@@ -44,7 +44,7 @@ Trong bước này, bạn sẽ thực hiện kiểm thử Lambda Function **Fetc
     }
     ```
 
-> 📌 Thay giá trị của `"id"` bằng một **InvoiceId hợp lệ** đã tồn tại trong bảng DynamoDB **InvoiceData**.
+>  Thay giá trị của `"id"` bằng một **InvoiceId hợp lệ** đã tồn tại trong bảng DynamoDB **InvoiceData**.
 
 ![JSON](/images/3.lambdafunctions/3.5-testfetch/005-pastejson.png)
 
@@ -62,6 +62,6 @@ Trong bước này, bạn sẽ thực hiện kiểm thử Lambda Function **Fetc
 
 2.  Quan sát phần **Execution results** được hiển thị sau khi chạy:
 
-    -   Nếu chạy thành công, bạn sẽ thấy dòng: **Status: succeeded** cùng với log output hiển thị nội dung xử lý.
+    -  Nếu chạy thành công, bạn sẽ thấy dòng: **Status: succeeded** cùng với log output hiển thị nội dung xử lý.
 
 ![Execution results](/images/3.lambdafunctions/3.5-testfetch/008-executionresult.png)

@@ -77,15 +77,15 @@ pre: " <b> 4.2. </b> "
 * Mastered Docker Image/Container management workflows and the role of Docker in Cloud-native ecosystems.
 * Learned the design of real-time multiplayer connections using API Gateway WebSockets, AWS Lambda, and DynamoDB.
 
-#### 🛡️ AI & Information Security
+#### AI & Information Security
 * Identified traditional rule-based WAF limits and the power of ML-based Network Intrusion Detection (NIDS) for threat intelligence on AWS.
 * Grasped the AI workflow from data preparation and balancing to training and deploying intrusion detection models.
 
-#### 🤖 Generative AI & GraphRAG
+#### Generative AI & GraphRAG
 * Understood how GraphRAG enhances query response accuracy by mapping semantic entity relations in a Knowledge Graph.
 * Explored combining Amazon Bedrock and Amazon Neptune for deep reasoning QA systems.
 
-#### 👥 Teamwork & Career Path
+#### Teamwork & Career Path
 * Learned 4 principles of teamwork: shared goals, proper role delegation, open communication, and responsibility.
 * Adopted Trello, ClickUp, and Slack/Discord for organized project collaboration.
 * Structured a clear roadmap covering Linux, Networking, Automation, Terraform, and CI/CD to transition to Cloud/DevOps roles.

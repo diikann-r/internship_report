@@ -77,15 +77,15 @@ pre: " <b> 4.2. </b> "
 * Nắm vững quy trình quản lý Docker Image/Container và vai trò của Docker trong các hệ thống Cloud-native.
 * Hiểu cách xây dựng tính năng multiplayer thời gian thực sử dụng API Gateway WebSocket, AWS Lambda và DynamoDB.
 
-#### 🛡️ Kiến thức về AI và An toàn thông tin
+#### Kiến thức về AI và An toàn thông tin
 * Nhận thấy hạn chế của hệ thống rule-based truyền thống và ưu thế của việc tích hợp Machine Learning vào AWS WAF để phát hiện các mối đe dọa bất thường mới.
 * Nắm được quy trình từ thu thập, cân bằng dữ liệu đến huấn luyện mô hình AI phát hiện xâm nhập và deploy trên AWS.
 
-#### 🤖 Kiến thức về AI Generative và GraphRAG
+#### Kiến thức về AI Generative và GraphRAG
 * Hiểu sự khác biệt của GraphRAG nhờ việc khai thác mối quan hệ thực thể qua Knowledge Graph để tối ưu truy vấn AI.
 * Biết cách phối hợp giữa Amazon Bedrock và Amazon Neptune phục vụ nhu cầu tra cứu tri thức phức tạp.
 
-#### 👥 Kỹ năng làm việc nhóm & Định hướng nghề nghiệp
+#### Kỹ năng làm việc nhóm & Định hướng nghề nghiệp
 * 4 nguyên tắc làm việc nhóm: mục tiêu chung, phân công hợp lý, giao tiếp cởi mở và tinh thần trách nhiệm.
 * Biết cách sử dụng Trello, ClickUp, Slack/Discord để quản lý công việc nhóm khoa học.
 * Xác định lộ trình tự học các mảng Linux, Networking, Automation, Terraform và CI/CD để dịch chuyển dần sang vai trò Cloud/DevOps Engineer.

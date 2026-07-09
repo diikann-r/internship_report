@@ -11,8 +11,8 @@ Trong phần này, bạn sẽ triển khai các Lambda function để xử lý h
 
 ### Nội dung
 
--   [Tạo IAM Role](3.1-createlambdarole/)
--   [Tạo Lambda Function #1](3.2-createlambdafunction-upload/)
--   [Kiểm thử Lambda Function #1](3.3-testlambdafunction-upload/)
--   [Tạo Lambda Function #2](3.4-createlambdafunction-fetch/)
--   [Kiểm thử Lambda Function #2](3.5-testlambdafunction-fetch/)
+-  [Tạo IAM Role](3.1-createlambdarole/)
+-  [Tạo Lambda Function #1](3.2-createlambdafunction-upload/)
+-  [Kiểm thử Lambda Function #1](3.3-testlambdafunction-upload/)
+-  [Tạo Lambda Function #2](3.4-createlambdafunction-fetch/)
+-  [Kiểm thử Lambda Function #2](3.5-testlambdafunction-fetch/)

@@ -18,7 +18,7 @@ In this step, you will create the first Lambda Function named **UploadInvoiceFil
 ![Open Lambda](/images/3.lambdafunctions/3.2-uploadinvoicelambda/001-openlambda.png)
 
 {{% notice warning %}}
-⚠️ **Note**: Make sure you are in the correct **Region: Singapore (ap-southeast-1)** before creating the Lambda function. This is the region where you created the S3 bucket, DynamoDB table. If you choose the wrong region, Lambda won't be able to access the system's other services.
+ **Note**: Make sure you are in the correct **Region: Singapore (ap-southeast-1)** before creating the Lambda function. This is the region where you created the S3 bucket, DynamoDB table. If you choose the wrong region, Lambda won't be able to access the system's other services.
 {{% /notice %}}
 
 2. Click **Create function**.
@@ -183,7 +183,7 @@ def safe_parse_json(ai_text):
 
         return json.loads(json_str, parse_float=Decimal)
     except Exception as e:
-        print("❌ Parse JSON error:", str(e))
+        print(" Parse JSON error:", str(e))
         print("Raw AI text preview:", ai_text[:300])
         return None
 
@@ -234,7 +234,7 @@ def create_file_id(bucket, key):
         last_modified = str(head.get("LastModified", ""))
         raw = f"{bucket}|{key}|{etag}|{size}|{last_modified}"
     except Exception as e:
-        print("⚠️ Cannot read S3 metadata for hash, fallback to bucket/key:", str(e))
+        print(" Cannot read S3 metadata for hash, fallback to bucket/key:", str(e))
         raw = f"{bucket}|{key}"
 
     digest = hashlib.sha256(raw.encode("utf-8")).hexdigest()
@@ -252,7 +252,7 @@ def get_existing_success(invoice_id):
         if item and item.get("ProcessStatus") == "SUCCESS":
             return item
     except Exception as e:
-        print("⚠️ DynamoDB get_item failed:", str(e))
+        print(" DynamoDB get_item failed:", str(e))
     return None
 
 
@@ -352,7 +352,7 @@ def call_openai(extracted_text):
 
             usage = result.get("usage", {})
             print(
-                "✅ OpenAI success | "
+                "✓ OpenAI success | "
                 f"model={OPENAI_MODEL} | "
                 f"prompt_tokens={usage.get('prompt_tokens')} | "
                 f"completion_tokens={usage.get('completion_tokens')} | "
@@ -364,11 +364,11 @@ def call_openai(extracted_text):
     except urllib.error.HTTPError as e:
         error_body = e.read().decode("utf-8")
         error_msg = f"OpenAI API error: {e.code} - {error_body}"
-        print("❌", error_msg)
+        print("", error_msg)
         raise Exception(error_msg)
 
     except Exception as e:
-        print("❌ OpenAI connection error:", str(e))
+        print(" OpenAI connection error:", str(e))
         raise
 
 
@@ -382,7 +382,7 @@ def call_openai_with_retry(extracted_text, max_retries=3):
         except Exception as e:
             error_msg = str(e)
             last_exception = e
-            print(f"❌ OpenAI error attempt {attempt}: {error_msg}")
+            print(f" OpenAI error attempt {attempt}: {error_msg}")
 
             # Lỗi tiền/key/quota thì không retry để tránh tốn thời gian
             if any(word in error_msg.lower() for word in ["quota", "insufficient", "invalid api key", "unauthorized", "401"]):
@@ -483,7 +483,7 @@ def process_s3_object(bucket, key):
         extracted_text = extract_text_with_textract(bucket, key)
     except Exception as e:
         error_msg = f"Textract failed: {str(e)}"
-        print("❌", error_msg)
+        print("", error_msg)
 
         item = save_invoice_item(
             invoice_id=invoice_id,
@@ -505,7 +505,7 @@ def process_s3_object(bucket, key):
 
     if len(extracted_text.strip()) < 20:
         error_msg = "No valid text found in the document."
-        print("❌", error_msg)
+        print("", error_msg)
 
         item = save_invoice_item(
             invoice_id=invoice_id,
@@ -543,7 +543,7 @@ def process_s3_object(bucket, key):
 
     except Exception as e:
         error_msg = str(e)
-        print("❌ OpenAI processing failed:", error_msg)
+        print(" OpenAI processing failed:", error_msg)
 
         item = save_invoice_item(
             invoice_id=invoice_id,
@@ -577,7 +577,7 @@ def process_s3_object(bucket, key):
         ocr_preview=extracted_text
     )
 
-    print(f"✅ DynamoDB saved | InvoiceId={invoice_id} | status={status}")
+    print(f"✓ DynamoDB saved | InvoiceId={invoice_id} | status={status}")
 
     return {
         "key": key,
@@ -592,7 +592,7 @@ def process_s3_object(bucket, key):
 # ============================================================
 def lambda_handler(event, context):
     # Không print toàn bộ event vì API Gateway có thể chứa ảnh base64 rất dài
-    print("🔍 Incoming event keys:", list(event.keys()))
+    print(" Incoming event keys:", list(event.keys()))
 
     try:
         # Preflight CORS
@@ -645,7 +645,7 @@ def lambda_handler(event, context):
                 ContentType=get_content_type(original_filename)
             )
 
-            print(f"✅ Uploaded to s3://{BUCKET_NAME}/{key}")
+            print(f"✓ Uploaded to s3://{BUCKET_NAME}/{key}")
 
             # Không xử lý AI ngay trong upload request.
             # S3 trigger sẽ gọi Lambda lần 2 để xử lý OCR + OpenAI.
@@ -660,7 +660,7 @@ def lambda_handler(event, context):
         # CASE 2: S3 Trigger
         # ------------------------------------------------------------
         if "Records" in event and event["Records"] and "s3" in event["Records"][0]:
-            print(f"📦 S3 trigger records: {len(event['Records'])}")
+            print(f" S3 trigger records: {len(event['Records'])}")
 
             results = []
 
@@ -686,7 +686,7 @@ def lambda_handler(event, context):
         return make_response(400, {"error": "Invalid request format"})
 
     except Exception as e:
-        print("❌ Fatal error:", str(e))
+        print(" Fatal error:", str(e))
         return make_response(500, {
             "error": "Internal Server Error",
             "details": str(e)

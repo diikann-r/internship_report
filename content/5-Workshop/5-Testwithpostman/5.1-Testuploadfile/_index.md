@@ -7,7 +7,7 @@ pre: " <b> 5.5.1</b> "
 
 #### Prerequisites
 
--   Postman installed ([https://www.postman.com/downloads](https://www.postman.com/downloads)).
+-  Postman installed ([https://www.postman.com/downloads](https://www.postman.com/downloads)).
 
 ---
 
@@ -15,9 +15,9 @@ pre: " <b> 5.5.1</b> "
 
 Download the following files before testing the API in Postman:
 
--   [demo_invoice.png](https://drive.google.com/file/d/1dfUxrk25_8P8qMZdeCmW4zMgNytbAY9g/view?usp=sharing)
--   [demo_invoice2.png](https://drive.google.com/file/d/1ReJLbCDdwmoLhXCMoQCI5xkiYbB26Qr-/view?usp=drive_link)
--   [demo_invoice3.png](https://drive.google.com/file/d/1lzjOO_6T_oH12_v2kbTzY2BsVO3I2xyF/view?usp=drive_link)
+-  [demo_invoice.png](https://drive.google.com/file/d/1dfUxrk25_8P8qMZdeCmW4zMgNytbAY9g/view?usp=sharing)
+-  [demo_invoice2.png](https://drive.google.com/file/d/1ReJLbCDdwmoLhXCMoQCI5xkiYbB26Qr-/view?usp=drive_link)
+-  [demo_invoice3.png](https://drive.google.com/file/d/1lzjOO_6T_oH12_v2kbTzY2BsVO3I2xyF/view?usp=drive_link)
 
 ---
 

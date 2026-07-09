@@ -11,5 +11,5 @@ In this section, you will deploy API Gateway to enable communication between the
 
 ### Contents
 
--   [Create API Gateway (GET)](4.1-creategetapigateway/)
--   [Create API Gateway (POST)](4.2-createpostapigateway/)
+-  [Create API Gateway (GET)](4.1-creategetapigateway/)
+-  [Create API Gateway (POST)](4.2-createpostapigateway/)
