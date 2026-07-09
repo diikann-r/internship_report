@@ -124,6 +124,8 @@ API Gateway
 React Frontend
 ```
 
+![Detailed Architecture Diagram](/images/2-Proposal/detailed_architecture.png)
+
 This architecture helps clearly separate functions:
 
 - Frontend is used to interact with users.

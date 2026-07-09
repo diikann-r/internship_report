@@ -124,6 +124,8 @@ API Gateway
 React Frontend
 ```
 
+![Sơ đồ kiến trúc chi tiết](/images/2-Proposal/detailed_architecture.png)
+
 Kiến trúc này giúp tách biệt rõ các chức năng:
 
 - Frontend dùng để tương tác với người dùng.
