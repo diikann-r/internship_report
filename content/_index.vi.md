@@ -25,7 +25,7 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 17/04/2026 đến ngày 12/07/2026
 
-![Ảnh đại diện của bạn](/images/avatar_khang.png)
+<img src="/images/avatar_khang.png" alt="Ảnh đại diện" width="250" style="border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-top: 10px; margin-bottom: 20px;">
 
 
 
