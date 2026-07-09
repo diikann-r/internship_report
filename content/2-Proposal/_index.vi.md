@@ -4,13 +4,13 @@ weight = 2
 pre = "<b>2. </b>"
 +++
 
-# 🧾 Serverless AI Invoice Scanner – Giải pháp tự động hóa trích xuất và quản lý hóa đơn bằng AI trên nền tảng AWS
+# Serverless AI Invoice Scanner – Giải pháp tự động hóa trích xuất và quản lý hóa đơn bằng AI trên nền tảng AWS
 
-> 🔍 *Một hệ thống thông minh giúp người dùng tải lên hóa đơn dạng ảnh hoặc PDF, tự động trích xuất nội dung bằng Amazon Textract, chuẩn hóa dữ liệu bằng OpenAI API, lưu trữ thông tin có cấu trúc vào Amazon DynamoDB và quản lý hóa đơn thông qua giao diện web React được triển khai bằng AWS Amplify Hosting.*
+>  *Một hệ thống thông minh giúp người dùng tải lên hóa đơn dạng ảnh hoặc PDF, tự động trích xuất nội dung bằng Amazon Textract, chuẩn hóa dữ liệu bằng OpenAI API, lưu trữ thông tin có cấu trúc vào Amazon DynamoDB và quản lý hóa đơn thông qua giao diện web React được triển khai bằng AWS Amplify Hosting.*
 
 ---
 
-## 📝 Tóm tắt dự án
+## Tóm tắt dự án
 
 Trong bối cảnh chuyển đổi số diễn ra mạnh mẽ, việc tự động hóa quy trình xử lý hóa đơn đầu vào đang trở thành nhu cầu thiết yếu của nhiều doanh nghiệp. Hóa đơn thường tồn tại dưới nhiều định dạng như PDF, ảnh chụp, bản scan hoặc tài liệu không có cấu trúc. Điều này gây khó khăn cho việc trích xuất, kiểm tra, lưu trữ và truy xuất dữ liệu.
 
@@ -22,7 +22,7 @@ Dữ liệu sau khi xử lý được lưu vào **Amazon DynamoDB**, cho phép t
 Trong phiên bản hiện tại của project, hệ thống sử dụng **OpenAI API** thay cho Amazon Bedrock. OpenAI API là dịch vụ bên ngoài AWS, vì vậy API key cần được lưu an toàn ở backend, ví dụ trong Lambda environment variables hoặc AWS Secrets Manager.
 {{% /notice %}}
 
-### 🎯 Lợi ích nổi bật
+### Lợi ích nổi bật
 
 - **Tự động hóa quy trình nhập liệu**: Giảm thời gian đọc và nhập hóa đơn thủ công.
 - **Tăng độ chính xác**: Kết hợp OCR của Amazon Textract và khả năng phân tích ngữ nghĩa của OpenAI API.
@@ -33,9 +33,9 @@ Trong phiên bản hiện tại của project, hệ thống sử dụng **OpenAI
 
 ---
 
-## ❗ 1. Tuyên bố vấn đề
+## 1. Tuyên bố vấn đề
 
-### 🧾 Tình hình hiện tại
+### Tình hình hiện tại
 
 Nhiều doanh nghiệp, đặc biệt là doanh nghiệp vừa và nhỏ, vẫn xử lý hóa đơn đầu vào theo cách thủ công hoặc bán tự động. Nhân viên kế toán thường phải mở từng file hóa đơn, đọc các trường quan trọng như số hóa đơn, ngày phát hành, tên khách hàng, tổng tiền, thuế và đơn vị bán hàng, sau đó nhập lại vào phần mềm quản lý.
 
@@ -49,7 +49,7 @@ Quy trình này có một số hạn chế:
 
 ➡️ **Nhu cầu đặt ra** là xây dựng một hệ thống có thể tiếp nhận hóa đơn đa định dạng, tự động trích xuất nội dung, chuẩn hóa dữ liệu bằng AI, lưu trữ tập trung và hỗ trợ truy xuất nhanh.
 
-### ⚠️ Những thách thức chính
+### Những thách thức chính
 
 1. **Định dạng hóa đơn đa dạng**  
    Hóa đơn có thể là PDF, ảnh chụp, bản scan hoặc hình ảnh có chất lượng khác nhau.
@@ -69,7 +69,7 @@ Quy trình này có một số hạn chế:
 6. **Nhu cầu mở rộng hệ thống**  
    Khi số lượng người dùng hoặc số lượng hóa đơn tăng, hệ thống cần có khả năng mở rộng mà không cần quản lý server thủ công.
 
-### 👥 Tác động đến các bên liên quan
+### Tác động đến các bên liên quan
 
 | Bên liên quan | Tác động |
 |---|---|
@@ -79,7 +79,7 @@ Quy trình này có một số hạn chế:
 | **Bộ phận CNTT** | Có hệ thống serverless dễ triển khai, dễ bảo trì, không cần vận hành máy chủ. |
 | **Người dùng cuối** | Có giao diện trực quan để upload, xem, tìm kiếm và quản lý hóa đơn. |
 
-### 💥 Hệ quả nếu không giải quyết
+### Hệ quả nếu không giải quyết
 
 - Tăng chi phí vận hành do phụ thuộc nhiều vào nhập liệu thủ công.
 - Dễ phát sinh sai lệch dữ liệu kế toán.
@@ -90,9 +90,9 @@ Quy trình này có một số hạn chế:
 
 ---
 
-## 🏗️ 2. Kiến trúc giải pháp
+## 2. Kiến trúc giải pháp
 
-### 🧩 Tổng quan kiến trúc
+### Tổng quan kiến trúc
 
 Hệ thống **Serverless AI Invoice Scanner** được xây dựng theo kiến trúc serverless và event-driven trên AWS. Luồng xử lý chính gồm:
 
@@ -135,7 +135,7 @@ Kiến trúc này giúp tách biệt rõ các chức năng:
 - DynamoDB lưu dữ liệu hóa đơn.
 - CloudWatch hỗ trợ theo dõi log và debug.
 
-### 🎯 Mục tiêu thiết kế kiến trúc
+### Mục tiêu thiết kế kiến trúc
 
 - Tự động hóa quy trình xử lý hóa đơn từ upload đến lưu trữ.
 - Không cần quản lý server vật lý hoặc máy chủ EC2.
@@ -146,7 +146,7 @@ Kiến trúc này giúp tách biệt rõ các chức năng:
 
 ---
 
-## 🔄 3. Luồng xử lý dữ liệu
+## 3. Luồng xử lý dữ liệu
 
 ### 3.1. Luồng đăng nhập người dùng
 
@@ -231,7 +231,7 @@ Lambda này truy vấn hoặc cập nhật dữ liệu trong DynamoDB, sau đó 
 
 ---
 
-## 🧱 4. Các khối chức năng chính
+## 4. Các khối chức năng chính
 
 ### 4.1. Frontend Layer
 
@@ -343,7 +343,7 @@ Amazon CloudWatch được sử dụng để:
 
 ---
 
-## 🧰 5. Các dịch vụ sử dụng
+## 5. Các dịch vụ sử dụng
 
 | Dịch vụ | Vai trò trong project |
 |---|---|
@@ -366,7 +366,7 @@ Route 53 là thành phần tùy chọn. Nếu project không sử dụng custom 
 
 ---
 
-## 🔐 6. Kiến trúc bảo mật
+## 6. Kiến trúc bảo mật
 
 ### 6.1. Xác thực người dùng
 
@@ -399,9 +399,9 @@ Nếu bật Cognito Authorizer, frontend cần gửi Authorization header và AP
 
 ---
 
-## ⚙️ 7. Triển khai kỹ thuật
+## 7. Triển khai kỹ thuật
 
-### 📌 Các giai đoạn triển khai
+### Các giai đoạn triển khai
 
 #### Giai đoạn 1: Chuẩn bị môi trường AWS
 
@@ -462,7 +462,7 @@ Nếu bật Cognito Authorizer, frontend cần gửi Authorization header và AP
 
 ---
 
-## 🧪 8. Chiến lược kiểm thử
+## 8. Chiến lược kiểm thử
 
 ### 8.1. Kiểm thử chức năng
 
@@ -501,9 +501,9 @@ Nếu bật Cognito Authorizer, frontend cần gửi Authorization header và AP
 
 ---
 
-## 🗺️ 9. Lộ trình và cột mốc
+## 9. Lộ trình và cột mốc
 
-### 📆 Lộ trình dự án
+### Lộ trình dự án
 
 | Tuần | Giai đoạn | Mục tiêu |
 |---|---|---|
@@ -514,7 +514,7 @@ Nếu bật Cognito Authorizer, frontend cần gửi Authorization header và AP
 | Tuần 5 | Frontend hoàn chỉnh | Upload, list, detail, search, tags, starred, export Excel. |
 | Tuần 6 | Kiểm thử và deploy | Postman test, CloudWatch debug, deploy Amplify Hosting. |
 
-### 📌 Cột mốc quan trọng
+### Cột mốc quan trọng
 
 | STT | Cột mốc | Kết quả đầu ra |
 |---|---|---|
@@ -529,9 +529,9 @@ Nếu bật Cognito Authorizer, frontend cần gửi Authorization header và AP
 
 ---
 
-## 💰 10. Ước tính ngân sách
+## 10. Ước tính ngân sách
 
-### 📦 Chi phí hạ tầng AWS
+### Chi phí hạ tầng AWS
 
 | Dịch vụ | Ước tính chi phí/tháng | Ghi chú |
 |---|---:|---|
@@ -546,7 +546,7 @@ Nếu bật Cognito Authorizer, frontend cần gửi Authorization header và AP
 | Secrets Manager *(optional)* | ~$0.40/secret/tháng | Nếu dùng để lưu OpenAI API key. |
 | Route 53 *(optional)* | ~$0.50/tháng + domain | Chỉ dùng nếu có custom domain. |
 
-### 🤖 Chi phí OpenAI API
+### Chi phí OpenAI API
 
 OpenAI API là dịch vụ bên ngoài AWS. Chi phí phụ thuộc vào:
 
@@ -561,7 +561,7 @@ Trong giai đoạn MVP, có thể giới hạn prompt và chỉ gửi phần OCR
 Chi phí OpenAI API nên được theo dõi riêng trong OpenAI dashboard vì không hiển thị trong AWS Billing.
 {{% /notice %}}
 
-### 👉 Tổng chi phí ước tính
+### Tổng chi phí ước tính
 
 Với quy mô MVP nhỏ, chi phí AWS có thể dao động khoảng:
 
@@ -573,9 +573,9 @@ Chưa bao gồm chi phí OpenAI API và domain tùy chọn.
 
 ---
 
-## ⚠️ 11. Đánh giá rủi ro
+## 11. Đánh giá rủi ro
 
-### 📋 Ma trận rủi ro
+### Ma trận rủi ro
 
 | ID | Nguy cơ | Mức độ tác động | Khả năng xảy ra | Mức độ rủi ro |
 |---|---|---|---|---|
@@ -588,7 +588,7 @@ Chưa bao gồm chi phí OpenAI API và domain tùy chọn.
 | R7 | Chi phí tăng do log hoặc request nhiều | Trung bình | Trung bình | Trung bình |
 | R8 | Người dùng upload file quá lớn hoặc sai định dạng | Trung bình | Trung bình | Trung bình |
 
-### 🛡️ Giải pháp giảm thiểu
+### Giải pháp giảm thiểu
 
 | Rủi ro | Biện pháp |
 |---|---|
@@ -603,7 +603,7 @@ Chưa bao gồm chi phí OpenAI API và domain tùy chọn.
 
 ---
 
-## 🎯 12. Kết quả mong đợi
+## 12. Kết quả mong đợi
 
 Sau khi hoàn thành project, hệ thống đạt được các kết quả sau:
 
@@ -621,7 +621,7 @@ Sau khi hoàn thành project, hệ thống đạt được các kết quả sau:
 - Người dùng có thể lọc, sắp xếp và export dữ liệu ra Excel.
 - CloudWatch hỗ trợ theo dõi log và debug lỗi.
 
-### 📊 Chỉ số đánh giá thành công
+### Chỉ số đánh giá thành công
 
 | Chỉ số | Mục tiêu |
 |---|---|
@@ -634,7 +634,7 @@ Sau khi hoàn thành project, hệ thống đạt được các kết quả sau:
 
 ---
 
-## 📎 Phụ lục
+## Phụ lục
 
 ### A. Thông số kỹ thuật
 
@@ -702,7 +702,7 @@ Optional GSI:
 
 ---
 
-## ✅ Kết luận
+## Kết luận
 
 Đề xuất **Serverless AI Invoice Scanner** phù hợp với mục tiêu xây dựng một hệ thống xử lý hóa đơn tự động, dễ triển khai và dễ mở rộng. So với phiên bản proposal ban đầu, bản cập nhật này đã điều chỉnh đúng theo project thực tế:
 

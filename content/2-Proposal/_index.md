@@ -4,9 +4,9 @@ weight = 2
 pre = "<b>2. </b>"
 +++
 
-# 🧾 Serverless AI Invoice Scanner – Solution to automate invoice extraction and management using AI on the AWS platform
+# Serverless AI Invoice Scanner – Solution to automate invoice extraction and management using AI on the AWS platform
 
-> 🔍 *An intelligent system that helps users upload image or PDF invoices, automatically extract content using Amazon Textract, normalize data using OpenAI API, store structured information into Amazon DynamoDB, and manage invoices through a React web interface deployed with AWS Amplify Hosting.*
+>  *An intelligent system that helps users upload image or PDF invoices, automatically extract content using Amazon Textract, normalize data using OpenAI API, store structured information into Amazon DynamoDB, and manage invoices through a React web interface deployed with AWS Amplify Hosting.*
 
 ---
 
@@ -22,7 +22,7 @@ The processed data is saved to **Amazon DynamoDB**, enabling fast retrieval thro
 In the current version of the project, the system uses the **OpenAI API** instead of Amazon Bedrock. The OpenAI API is a service outside of AWS, so the API key needs to be securely stored in the backend, for example in Lambda environment variables or AWS Secrets Manager.
 {{% /notice %}}
 
-### 🎯 Featured Benefits
+### Featured Benefits
 
 - **Automate the data entry process**: Reduce the time it takes to read and enter invoices manually.
 - **Increase accuracy**: Combines the OCR of Amazon Textract and the semantic analysis capabilities of OpenAI API.
@@ -33,9 +33,9 @@ In the current version of the project, the system uses the **OpenAI API** instea
 
 ---
 
-## ❗ 1. Problem statement
+## 1. Problem statement
 
-### 🧾 Current situation
+### Current situation
 
 Many businesses, especially small and medium-sized enterprises, still process input invoices manually or semi-automatically. Accounting staff often have to open each invoice file, read important fields such as invoice number, issue date, customer name, total amount, tax and sales unit, then re-enter it into the management software.
 
@@ -49,7 +49,7 @@ This procedure has some limitations:
 
 ➡️ **The need** is to build a system that can receive multi-format invoices, automatically extract content, standardize data using AI, centrally store and support quick retrieval.
 
-### ⚠️ Key challenges
+### Key challenges
 
 1. **Diverse invoice formats**  
    Invoices can be PDFs, photos, scans or images of varying quality.
@@ -69,7 +69,7 @@ This procedure has some limitations:
 6. **Need to expand the system**  
    When the number of users or the number of invoices increases, the system needs to be able to scale without the need for manual server management.
 
-### 👥 Impact on stakeholders
+### Impact on stakeholders
 
 | Related parties | Impact |
 |---|---|
@@ -79,7 +79,7 @@ This procedure has some limitations:
 | **IT Department** | Having a serverless system is easy to deploy, easy to maintain, and does not require server operation. |
 | **End User** | Has an intuitive interface to upload, view, search and manage invoices. |
 
-### 💥 Consequences if not resolved
+### Consequences if not resolved
 
 - Increased operating costs due to heavy reliance on manual data entry.
 - Accounting data errors easily arise.
@@ -90,9 +90,9 @@ This procedure has some limitations:
 
 ---
 
-## 🏗️ 2. Solution architecture
+## 2. Solution architecture
 
-### 🧩 Architecture overview
+### Architecture overview
 
 The **Serverless AI Invoice Scanner** system is built according to serverless and event-driven architecture on AWS. The main processing flow includes:
 
@@ -135,7 +135,7 @@ This architecture helps clearly separate functions:
 - DynamoDB stores invoice data.
 - CloudWatch supports log monitoring and debugging.
 
-### 🎯 Architectural design goals
+### Architectural design goals
 
 - Automate the invoice processing process from upload to storage.
 - No need to manage physical servers or EC2 servers.
@@ -146,7 +146,7 @@ This architecture helps clearly separate functions:
 
 ---
 
-## 🔄 3. Data processing flow
+## 3. Data processing flow
 
 ### 3.1. User login flow
 
@@ -231,7 +231,7 @@ This lambda queries or updates data in DynamoDB, then returns the results to the
 
 ---
 
-## 🧱 4. Main functional blocks
+## 4. Main functional blocks
 
 ### 4.1. Frontend Layer
 
@@ -343,7 +343,7 @@ Amazon CloudWatch is used to:
 
 ---
 
-## 🧰 5. Services used
+## 5. Services used
 
 | Services | Role in project |
 |---|---|
@@ -366,7 +366,7 @@ Route 53 is an optional component. If the project does not use a custom domain, 
 
 ---
 
-## 🔐 6. Security architecture
+## 6. Security architecture
 
 ### 6.1. User authentication
 
@@ -399,9 +399,9 @@ If Cognito Authorizer is enabled, the frontend needs to send the Authorization h
 
 ---
 
-## ⚙️ 7. Technical implementation
+## 7. Technical implementation
 
-### 📌 Implementation stages
+### Implementation stages
 
 #### Phase 1: Prepare the AWS environment
 
@@ -462,7 +462,7 @@ If Cognito Authorizer is enabled, the frontend needs to send the Authorization h
 
 ---
 
-## 🧪 8. Testing strategy
+## 8. Testing strategy
 
 ### 8.1. Functional testing
 
@@ -501,9 +501,9 @@ If Cognito Authorizer is enabled, the frontend needs to send the Authorization h
 
 ---
 
-## 🗺️ 9. Roadmap and milestones
+## 9. Roadmap and milestones
 
-### 📆 Project roadmap
+### Project roadmap
 
 | Week | Phase | Goal |
 |---|---|---|
@@ -514,7 +514,7 @@ If Cognito Authorizer is enabled, the frontend needs to send the Authorization h
 | Week 5 | Complete Frontend | Upload, list, details, search, tags, starred, export Excel. |
 | Week 6 | Testing and deploying | Postman test, CloudWatch debug, deploy Amplify Hosting. |
 
-### 📌 Important milestone
+### Important milestone
 
 | STT | Milestone | Output |
 |---|---|---|
@@ -529,9 +529,9 @@ If Cognito Authorizer is enabled, the frontend needs to send the Authorization h
 
 ---
 
-## 💰 10. Estimate budget
+## 10. Estimate budget
 
-### 📦 AWS infrastructure costs
+### AWS infrastructure costs
 
 | Services | Estimated cost/month | Notes |
 |---|---:|---|
@@ -546,7 +546,7 @@ If Cognito Authorizer is enabled, the frontend needs to send the Authorization h
 | Secrets Manager *(optional)* | ~$0.40/secret/month | If used to save OpenAI API key. |
 | Route 53 *(optional)* | ~$0.50/month + domain | Only use if you have a custom domain. |
 
-### 🤖 OpenAI API cost
+### OpenAI API cost
 
 OpenAI API is a service outside of AWS. Cost depends on:
 
@@ -561,7 +561,7 @@ During the MVP phase, it is possible to limit prompts and send only the necessar
 OpenAI API costs should be tracked separately in the OpenAI dashboard as they are not visible in AWS Billing.
 {{% /notice %}}
 
-### 👉 Total estimated cost
+### Total estimated cost
 
 With a small MVP scale, AWS costs can range around:
 
@@ -573,9 +573,9 @@ OpenAI API and optional domain costs are not included.
 
 ---
 
-## ⚠️ 11. Risk assessment
+## 11. Risk assessment
 
-### 📋 Risk matrix
+### Risk matrix
 
 | ID | Risk | Level of impact | Likelihood | Risk level |
 |---|---|---|---|---|
@@ -588,7 +588,7 @@ OpenAI API and optional domain costs are not included.
 | R7 | Cost increases due to many logs or requests Average | Average | Average |
 | R8 | Users upload files that are too large or in the wrong format | Average | Average | Average |
 
-### 🛡️ Mitigation solution
+### Mitigation solution
 
 | Risk | Measures |
 |---|---|
@@ -603,7 +603,7 @@ OpenAI API and optional domain costs are not included.
 
 ---
 
-## 🎯 12. Expected results
+## 12. Expected results
 
 After completing the project, the system achieves the following results:
 
@@ -621,7 +621,7 @@ After completing the project, the system achieves the following results:
 - Users can filter, sort and export data to Excel.
 - CloudWatch supports log monitoring and error debugging.
 
-### 📊 Success assessment index
+### Success assessment index
 
 | Index | Goal |
 |---|---|
@@ -634,7 +634,7 @@ After completing the project, the system achieves the following results:
 
 ---
 
-## 📎 Appendix
+## Appendix
 
 ### A. Technical specifications
 
@@ -702,7 +702,7 @@ Optional GSI:
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 The proposal **Serverless AI Invoice Scanner** fits the goal of building an automated invoice processing system that is easy to deploy and easy to expand. Compared to the original proposal version, this update has adjusted to the actual project:
 
